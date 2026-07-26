@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="hy" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The ONE Gym — Պրեմիում Ֆիթնես Ակումբ Երևանում</title>
+<meta name="description" content="The ONE Gym — պրեմիում ֆիթնես կենտրոն Երևանում, Ազատության պողոտա 24/2 հասցեում։ Ժամանակակից սարքավորումներ, պրոֆեսիոնալ մարզիչներ, կանանց առանձին գոտի և ֆիթնես-բար։">
+<meta name="keywords" content="fitness Yerevan, gym Yerevan, ֆիթնես Երևան, մարզասրահ, спортзал Ереван, тренажерный зал, The ONE Gym">
+<meta name="robots" content="index, follow">
+<meta name="author" content="The ONE Gym">
+<link rel="canonical" href="https://theonegym.am/">
+
+<!-- Theme color -->
+<meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f4f0" media="(prefers-color-scheme: light)">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0a0b'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%23f7f6f4' stroke-width='7'/%3E%3Cline x1='24' y1='68' x2='76' y2='32' stroke='%23c81e3a' stroke-width='8' stroke-linecap='round'/%3E%3C/svg%3E">
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="The ONE Gym — Premium Fitness Club in Yerevan">
+<meta property="og:description" content="Premium training, elite coaching and a private fitness bar — all under one roof in the heart of Yerevan.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1529420681125-2878126af4a9?auto=format&fit=crop&w=1200&q=80">
+<meta property="og:url" content="https://theonegym.am/">
+<meta property="og:site_name" content="The ONE Gym">
+<meta property="og:locale" content="hy_AM">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The ONE Gym — Premium Fitness Club in Yerevan">
+<meta name="twitter:description" content="Premium training, elite coaching and a private fitness bar — all under one roof in the heart of Yerevan.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1529420681125-2878126af4a9?auto=format&fit=crop&w=1200&q=80">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ExerciseGym",
+  "name": "The ONE Gym",
+  "image": "https://images.unsplash.com/photo-1529420681125-2878126af4a9?auto=format&fit=crop&w=1200&q=80",
+  "telephone": "+37441882880",
+  "priceRange": "AMD 25000-204000",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "24/2 Azatutyan Avenue",
+    "addressLocality": "Yerevan",
+    "addressCountry": "AM"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.2082,
+    "longitude": 44.5279
+  },
+  "url": "https://theonegym.am/",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "07:00",
+      "closes": "23:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "22:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/theonegym",
+    "https://www.facebook.com/theonegym"
+  ]
+}
+</script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   THE ONE GYM — Design Tokens
+   ============================================================ */
+:root{
+  --font-display:'Bebas Neue',sans-serif;
+  --font-heading:'Oswald',sans-serif;
+  --font-body:'Inter',sans-serif;
+
+  --c-crimson:#c81e3a;
+  --c-crimson-bright:#e63950;
+  --c-deep-red:#6e0f1a;
+  --grad-accent:linear-gradient(135deg,#8a1120,#c81e3a 55%,#e63950);
+
+  --radius-s:6px;
+  --radius-m:14px;
+  --radius-l:24px;
+  --ease:cubic-bezier(.22,.8,.32,1);
+  --nav-h:84px;
+
+  --shadow-soft:0 20px 60px -20px rgba(0,0,0,.55);
+  --shadow-crimson:0 16px 40px -12px rgba(200,30,58,.45);
+}
+
+html[data-theme="dark"]{
+  --c-bg:#0a0a0b;
+  --c-bg-alt:#0e0e10;
+  --c-surface:#151517;
+  --c-surface-2:#1c1c1f;
+  --c-border:rgba(255,255,255,.09);
+  --c-text:#f7f6f4;
+  --c-text-dim:#a5a3a0;
+  --c-text-faint:#716f6c;
+  --overlay-strong:linear-gradient(180deg,rgba(6,6,7,.35) 0%,rgba(6,6,7,.75) 55%,#0a0a0b 100%);
+}
+html[data-theme="light"]{
+  --c-bg:#f6f4f0;
+  --c-bg-alt:#efece6;
+  --c-surface:#ffffff;
+  --c-surface-2:#f1efe9;
+  --c-border:rgba(10,10,10,.09);
+  --c-text:#121212;
+  --c-text-dim:#57544f;
+  --c-text-faint:#8b8781;
+  --overlay-strong:linear-gradient(180deg,rgba(10,8,8,.25) 0%,rgba(10,8,8,.65) 55%,#f6f4f0 100%);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:var(--font-body);
+  background:var(--c-bg);
+  color:var(--c-text);
+  line-height:1.6;
+  overflow-x:hidden;
+  transition:background .4s var(--ease),color .4s var(--ease);
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font:inherit;cursor:pointer;background:none;border:none;color:inherit}
+input,textarea{font:inherit;color:inherit}
+section{position:relative}
+:focus-visible{outline:2px solid var(--c-crimson);outline-offset:3px;border-radius:4px}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}
+}
+
+.container{width:100%;max-width:1280px;margin-inline:auto;padding-inline:24px}
+@media (min-width:768px){.container{padding-inline:40px}}
+
+.eyebrow{
+  font-family:var(--font-heading);
+  font-size:.78rem;
+  letter-spacing:.28em;
+  text-transform:uppercase;
+  color:var(--c-crimson);
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  font-weight:600;
+  margin-bottom:18px;
+}
+.eyebrow::before{content:"";width:26px;height:2px;background:var(--grad-accent);display:inline-block}
+
+h1,h2,h3,h4{font-family:var(--font-heading);font-weight:600;line-height:1.12;letter-spacing:-.01em}
+.section-title{
+  font-size:clamp(2rem,4.4vw,3.4rem);
+  text-transform:uppercase;
+  margin-bottom:20px;
+  max-width:820px;
+}
+.section-title em{font-style:normal;color:var(--c-crimson)}
+.section-lede{color:var(--c-text-dim);max-width:620px;font-size:1.05rem;margin-bottom:56px}
+.section-head{margin-bottom:8px}
+.section-pad{padding:120px 0}
+@media (max-width:768px){.section-pad{padding:80px 0}}
+
+/* Signature diagonal slash divider — the recurring "ONE line" motif */
+.slash-divider{
+  position:relative;height:64px;overflow:hidden;
+}
+.slash-divider::after{
+  content:"";position:absolute;left:-10%;right:-10%;top:50%;height:3px;
+  background:var(--grad-accent);transform:skewY(-2.2deg);
+  box-shadow:var(--shadow-crimson);
+}
+
+/* Buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  font-family:var(--font-heading);font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  font-size:.9rem;padding:17px 34px;border-radius:2px;
+  transition:transform .35s var(--ease),box-shadow .35s var(--ease),background .35s var(--ease),color .35s var(--ease);
+  white-space:nowrap;position:relative;
+}
+.btn-primary{background:var(--grad-accent);color:#fff;box-shadow:var(--shadow-crimson)}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 22px 48px -14px rgba(200,30,58,.6)}
+.btn-outline{border:1.5px solid var(--c-border);color:var(--c-text);background:transparent}
+.btn-outline:hover{border-color:var(--c-crimson);background:rgba(200,30,58,.08);transform:translateY(-3px)}
+.btn-block{width:100%}
+.btn-sm{padding:12px 22px;font-size:.78rem}
+
+/* Reveal-on-scroll */
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.is-visible{opacity:1;transform:translateY(0)}
+.reveal-delay-1{transition-delay:.08s}
+.reveal-delay-2{transition-delay:.16s}
+.reveal-delay-3{transition-delay:.24s}
+.reveal-delay-4{transition-delay:.32s}
+
+/* ============================================================
+   LOADING SCREEN + PROGRESS BAR
+   ============================================================ */
+#loading-screen{
+  position:fixed;inset:0;z-index:9999;background:#0a0a0b;
+  display:flex;align-items:center;justify-content:center;flex-direction:column;gap:22px;
+  transition:opacity .6s var(--ease),visibility .6s var(--ease);
+}
+#loading-screen.hidden{opacity:0;visibility:hidden;pointer-events:none}
+.loader-mark{width:64px;height:64px;position:relative}
+.loader-mark svg{width:100%;height:100%;animation:spin-loader 1.4s linear infinite}
+@keyframes spin-loader{to{transform:rotate(360deg)}}
+.loader-word{font-family:var(--font-display);letter-spacing:.18em;color:#f7f6f4;font-size:1.1rem}
+.loader-word span{color:var(--c-crimson)}
+
+#scroll-progress{
+  position:fixed;top:0;left:0;height:3px;background:var(--grad-accent);
+  width:0%;z-index:1001;transition:width .1s linear;
+}
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+#navbar{
+  position:fixed;top:0;left:0;right:0;z-index:900;
+  height:var(--nav-h);display:flex;align-items:center;
+  background:transparent;
+  transition:background .45s var(--ease),box-shadow .45s var(--ease),height .35s var(--ease),border-color .45s var(--ease);
+  border-bottom:1px solid transparent;
+}
+#navbar.scrolled{
+  background:color-mix(in srgb, var(--c-bg) 88%, transparent);
+  backdrop-filter:blur(16px) saturate(140%);
+  -webkit-backdrop-filter:blur(16px) saturate(140%);
+  border-bottom-color:var(--c-border);
+  height:72px;
+  box-shadow:0 10px 30px -18px rgba(0,0,0,.4);
+}
+.nav-inner{width:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-family:var(--font-heading);font-weight:600;letter-spacing:.03em;font-size:1.05rem;text-transform:uppercase}
+.brand svg{width:38px;height:38px;flex-shrink:0}
+.brand b{color:var(--c-crimson);font-weight:700}
+
+.nav-links{display:flex;align-items:center;gap:2px}
+.nav-links > li{position:relative}
+.nav-links a, .nav-drop-toggle{
+  display:flex;align-items:center;gap:6px;padding:10px 16px;font-family:var(--font-heading);
+  font-size:.82rem;letter-spacing:.05em;text-transform:uppercase;color:var(--c-text-dim);
+  border-radius:2px;transition:color .3s,background .3s;
+}
+.nav-links a:hover,.nav-drop-toggle:hover,.nav-drop-toggle[aria-expanded="true"]{color:var(--c-text);background:var(--c-surface)}
+.nav-drop{
+  position:absolute;top:100%;left:0;margin-top:10px;min-width:220px;
+  background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--radius-m);
+  padding:8px;opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:opacity .25s var(--ease),transform .25s var(--ease),visibility .25s;
+  box-shadow:var(--shadow-soft);
+}
+.nav-drop-wrap:hover .nav-drop, .nav-drop-wrap:focus-within .nav-drop{opacity:1;visibility:visible;transform:translateY(0)}
+.nav-drop a{display:block;padding:11px 14px;border-radius:8px;font-size:.8rem}
+.nav-drop a:hover{background:var(--c-surface-2)}
+
+.nav-actions{display:flex;align-items:center;gap:10px}
+.lang-switch{display:flex;background:var(--c-surface);border:1px solid var(--c-border);border-radius:100px;padding:3px}
+.lang-switch button{
+  padding:6px 11px;font-family:var(--font-heading);font-size:.72rem;letter-spacing:.05em;
+  border-radius:100px;color:var(--c-text-faint);transition:background .3s,color .3s;
+}
+.lang-switch button.active{background:var(--grad-accent);color:#fff}
+.theme-toggle{
+  width:40px;height:40px;border-radius:100px;border:1px solid var(--c-border);
+  display:flex;align-items:center;justify-content:center;background:var(--c-surface);
+  transition:border-color .3s,transform .3s;
+}
+.theme-toggle:hover{border-color:var(--c-crimson);transform:rotate(20deg)}
+.theme-toggle svg{width:18px;height:18px}
+.theme-toggle .sun{display:none}
+html[data-theme="light"] .theme-toggle .sun{display:block}
+html[data-theme="light"] .theme-toggle .moon{display:none}
+
+.nav-cta{display:none}
+@media (min-width:1080px){.nav-cta{display:inline-flex}}
+
+.burger{
+  width:44px;height:44px;display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;
+  border-radius:8px;border:1px solid var(--c-border);background:var(--c-surface);
+}
+.burger span{width:19px;height:2px;background:var(--c-text);transition:transform .3s,opacity .3s}
+.burger.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.active span:nth-child(2){opacity:0}
+.burger.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+@media (max-width:1079px){
+  .nav-links{
+    position:fixed;top:0;right:0;height:100vh;width:min(340px,85vw);
+    background:var(--c-surface);flex-direction:column;align-items:stretch;
+    padding:104px 22px 32px;gap:2px;transform:translateX(100%);
+    transition:transform .45s var(--ease);overflow-y:auto;box-shadow:-20px 0 60px rgba(0,0,0,.35);
+  }
+  .nav-links.open{transform:translateX(0)}
+  .nav-links a,.nav-drop-toggle{width:100%;padding:14px 12px;font-size:.95rem}
+  .nav-drop{position:static;opacity:1;visibility:visible;transform:none;margin:0 0 4px 14px;box-shadow:none;border:none;background:transparent;display:none;padding:0}
+  .nav-drop-wrap.open .nav-drop{display:block}
+  .burger{display:flex}
+  .lang-switch{display:none}
+}
+.nav-scrim{position:fixed;inset:0;background:rgba(0,0,0,.5);opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s;z-index:850}
+.nav-scrim.open{opacity:1;visibility:visible}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+#hero{
+  min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;
+  position:relative;overflow:hidden;padding-top:var(--nav-h);
+}
+.hero-bg{position:absolute;inset:0;z-index:-2}
+.hero-bg img{width:100%;height:100%;object-fit:cover}
+.hero-bg::after{content:"";position:absolute;inset:0;background:var(--overlay-strong)}
+.hero-content{max-width:900px;padding:100px 24px 0}
+@media (min-width:768px){.hero-content{padding:120px 40px 0}}
+.hero-headline{
+  font-family:var(--font-display);
+  font-size:clamp(3rem,9.2vw,7.2rem);
+  line-height:.94;letter-spacing:.01em;color:#fff;text-transform:uppercase;
+  animation:hero-up 1.1s var(--ease) both;
+}
+.hero-headline em{font-style:normal;background:var(--grad-accent);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-sub{
+  color:rgba(255,255,255,.82);font-size:clamp(1rem,1.6vw,1.2rem);max-width:560px;margin:26px 0 40px;
+  animation:hero-up 1.1s .15s var(--ease) both;
+}
+.hero-actions{display:flex;flex-wrap:wrap;gap:16px;animation:hero-up 1.1s .3s var(--ease) both}
+@keyframes hero-up{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+
+.hero-stats{
+  margin-top:64px;display:grid;grid-template-columns:repeat(2,1fr);
+  border-top:1px solid rgba(255,255,255,.16);
+  animation:hero-up 1.1s .45s var(--ease) both;
+}
+@media (min-width:768px){.hero-stats{grid-template-columns:repeat(4,1fr)}}
+.hero-stat{padding:26px 20px 34px;border-right:1px solid rgba(255,255,255,.16)}
+.hero-stat:nth-child(2n){border-right:none}
+@media (min-width:768px){.hero-stat:nth-child(2n){border-right:1px solid rgba(255,255,255,.16)}.hero-stat:last-child{border-right:none}}
+.hero-stat-num{font-family:var(--font-display);font-size:clamp(2.1rem,4vw,3.2rem);color:#fff;line-height:1}
+.hero-stat-num span{color:var(--c-crimson-bright)}
+.hero-stat-label{color:rgba(255,255,255,.66);font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;margin-top:8px;font-family:var(--font-heading)}
+
+.scroll-cue{
+  position:absolute;bottom:18px;left:50%;transform:translateX(-50%);display:none;
+  flex-direction:column;align-items:center;gap:8px;color:rgba(255,255,255,.7);z-index:2;
+}
+@media(min-width:768px){.scroll-cue{display:flex}}
+.scroll-cue .line{width:1px;height:30px;background:linear-gradient(#fff,transparent);animation:cue 1.8s ease-in-out infinite}
+@keyframes cue{0%{opacity:0;transform:scaleY(.3);transform-origin:top}50%{opacity:1;transform:scaleY(1);transform-origin:top}100%{opacity:0;transform:scaleY(.3);transform-origin:bottom}}
+
+/* ============================================================
+   ABOUT
+   ============================================================ */
+.about-grid{display:grid;grid-template-columns:1fr;gap:56px;align-items:center}
+@media (min-width:960px){.about-grid{grid-template-columns:1fr 1fr;gap:80px}}
+.about-media{position:relative;border-radius:var(--radius-l);overflow:hidden;aspect-ratio:4/5;box-shadow:var(--shadow-soft)}
+.about-media img{width:100%;height:100%;object-fit:cover}
+.about-badge{
+  position:absolute;bottom:24px;left:24px;right:24px;padding:20px 22px;border-radius:var(--radius-m);
+  background:color-mix(in srgb, var(--c-surface) 55%, transparent);backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.14);color:#fff;display:flex;gap:16px;align-items:center;
+}
+.about-badge strong{font-family:var(--font-display);font-size:2.1rem;color:var(--c-crimson-bright);line-height:1}
+.about-badge span{font-size:.82rem;color:rgba(255,255,255,.78)}
+.about-list{display:grid;gap:16px;margin:32px 0 40px}
+.about-list li{display:flex;gap:14px;align-items:flex-start;color:var(--c-text-dim);font-size:.98rem}
+.about-list svg{flex-shrink:0;width:22px;height:22px;color:var(--c-crimson);margin-top:2px}
+.about-body{color:var(--c-text-dim);font-size:1.05rem;margin-bottom:8px}
+
+/* ============================================================
+   WHY CHOOSE US
+   ============================================================ */
+.why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--c-border);border:1px solid var(--c-border);border-radius:var(--radius-l);overflow:hidden}
+@media (min-width:640px){.why-grid{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:960px){.why-grid{grid-template-columns:repeat(4,1fr)}}
+.why-card{background:var(--c-surface);padding:36px 24px;transition:background .35s var(--ease)}
+.why-card:hover{background:var(--c-surface-2)}
+.why-card svg{width:30px;height:30px;color:var(--c-crimson);margin-bottom:20px}
+.why-card h3{font-size:1rem;text-transform:uppercase;letter-spacing:.03em;margin-bottom:8px}
+.why-card p{font-size:.86rem;color:var(--c-text-faint)}
+
+/* ============================================================
+   TRAINING ZONES
+   ============================================================ */
+.zones-grid{display:grid;grid-template-columns:1fr;gap:28px}
+@media (min-width:860px){.zones-grid{grid-template-columns:repeat(3,1fr)}}
+.zone-card{
+  scroll-margin-top:110px;border-radius:var(--radius-l);overflow:hidden;position:relative;
+  background:var(--c-surface);border:1px solid var(--c-border);
+  transition:transform .5s var(--ease),box-shadow .5s var(--ease);
+}
+.zone-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-soft)}
+.zone-media{aspect-ratio:4/3;overflow:hidden;position:relative}
+.zone-media img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease)}
+.zone-card:hover .zone-media img{transform:scale(1.08)}
+.zone-tag{
+  position:absolute;top:16px;left:16px;background:var(--grad-accent);color:#fff;
+  font-family:var(--font-heading);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;
+  padding:7px 14px;border-radius:100px;
+}
+.zone-body{padding:28px}
+.zone-body h3{font-size:1.4rem;text-transform:uppercase;margin-bottom:10px}
+.zone-body p{color:var(--c-text-dim);font-size:.92rem;margin-bottom:18px}
+.zone-features{display:flex;flex-wrap:wrap;gap:8px}
+.zone-features span{
+  font-size:.72rem;letter-spacing:.03em;color:var(--c-text-faint);border:1px solid var(--c-border);
+  padding:6px 11px;border-radius:100px;font-family:var(--font-heading);text-transform:uppercase;
+}
+
+/* ============================================================
+   COACHES
+   ============================================================ */
+.coach-grid{display:grid;grid-template-columns:1fr;gap:24px}
+@media (min-width:640px){.coach-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1080px){.coach-grid{grid-template-columns:repeat(4,1fr)}}
+.coach-card{background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--radius-l);overflow:hidden;transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
+.coach-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-soft)}
+.coach-photo{aspect-ratio:3/4;position:relative;background:var(--grad-accent);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.coach-photo svg{width:46%;height:46%;color:rgba(255,255,255,.9)}
+.coach-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.55));}
+.coach-ig{
+  position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:100px;
+  background:rgba(0,0,0,.35);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;z-index:2;
+  transition:background .3s;
+}
+.coach-ig:hover{background:var(--c-crimson)}
+.coach-ig svg{width:17px;height:17px;color:#fff}
+.coach-info{padding:22px}
+.coach-info h3{font-size:1.15rem;text-transform:uppercase;margin-bottom:4px}
+.coach-role{color:var(--c-crimson);font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;font-family:var(--font-heading);margin-bottom:12px}
+.coach-exp{font-size:.78rem;color:var(--c-text-faint);margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.coach-bio{
+  color:var(--c-text-dim);font-size:.87rem;overflow:hidden;max-height:0;
+  transition:max-height .45s var(--ease),margin .45s var(--ease);
+}
+.coach-card.expanded .coach-bio{max-height:220px;margin-bottom:14px}
+.coach-toggle{
+  font-family:var(--font-heading);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--c-crimson);display:inline-flex;align-items:center;gap:6px;
+}
+.coach-toggle svg{width:13px;height:13px;transition:transform .35s var(--ease)}
+.coach-card.expanded .coach-toggle svg{transform:rotate(180deg)}
+
+/* ============================================================
+   SCHEDULE
+   ============================================================ */
+.schedule-wrap{border:1px solid var(--c-border);border-radius:var(--radius-l);overflow:hidden;background:var(--c-surface)}
+table.schedule{width:100%;border-collapse:collapse;min-width:760px}
+.schedule th,.schedule td{padding:16px 18px;text-align:left;border-bottom:1px solid var(--c-border);font-size:.88rem}
+.schedule thead th{
+  font-family:var(--font-heading);text-transform:uppercase;letter-spacing:.05em;font-size:.72rem;
+  color:var(--c-text-faint);background:var(--c-surface-2);
+}
+.schedule tbody tr:last-child td{border-bottom:none}
+.schedule tbody tr:hover{background:var(--c-surface-2)}
+.schedule td:first-child{font-family:var(--font-heading);font-weight:600;letter-spacing:.02em}
+.schedule .off{color:var(--c-text-faint);font-style:italic}
+.schedule-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.schedule-cards{display:none;flex-direction:column;gap:14px}
+@media (max-width:760px){
+  .schedule-scroll{display:none}
+  .schedule-cards{display:flex}
+}
+.schedule-card{background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--radius-m);padding:20px}
+.schedule-card h4{font-size:1.02rem;text-transform:uppercase;margin-bottom:12px}
+.schedule-card .row{display:flex;justify-content:space-between;padding:8px 0;border-top:1px solid var(--c-border);font-size:.86rem}
+.schedule-card .row:first-of-type{border-top:none}
+
+/* ============================================================
+   MEMBERSHIP PLANS
+   ============================================================ */
+.plans-grid{display:grid;grid-template-columns:1fr;gap:24px}
+@media (min-width:640px){.plans-grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.plans-grid{grid-template-columns:repeat(4,1fr)}}
+.plan-card{
+  background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--radius-l);
+  padding:34px 28px;display:flex;flex-direction:column;transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .45s;
+  position:relative;
+}
+.plan-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-soft)}
+.plan-card.popular{
+  background:var(--grad-accent);border-color:transparent;color:#fff;transform:scale(1.03);
+  box-shadow:var(--shadow-crimson);
+}
+.plan-card.popular:hover{transform:scale(1.03) translateY(-8px)}
+.plan-badge{
+  position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#fff;color:var(--c-deep-red);
+  font-family:var(--font-heading);font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;
+  padding:7px 16px;border-radius:100px;font-weight:700;box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+.plan-name{font-family:var(--font-heading);font-size:1.1rem;text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.plan-card.popular .plan-name{color:rgba(255,255,255,.92)}
+.plan-price{font-family:var(--font-display);font-size:2.6rem;line-height:1;margin:12px 0 4px}
+.plan-price sup{font-family:var(--font-heading);font-size:1rem;margin-left:4px;font-weight:400;opacity:.7}
+.plan-per{font-size:.8rem;color:var(--c-text-faint);margin-bottom:24px}
+.plan-card.popular .plan-per{color:rgba(255,255,255,.75)}
+.plan-features{display:grid;gap:12px;margin-bottom:28px;flex:1}
+.plan-features li{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;color:var(--c-text-dim)}
+.plan-card.popular .plan-features li{color:rgba(255,255,255,.88)}
+.plan-features svg{width:17px;height:17px;color:var(--c-crimson);flex-shrink:0;margin-top:2px}
+.plan-card.popular .plan-features svg{color:#fff}
+.plan-card.popular .btn-outline{border-color:rgba(255,255,255,.5);color:#fff}
+.plan-card.popular .btn-outline:hover{background:rgba(255,255,255,.15);border-color:#fff}
+
+/* ============================================================
+   GALLERY
+   ============================================================ */
+.gallery-grid{column-count:1;column-gap:16px}
+@media (min-width:560px){.gallery-grid{column-count:2}}
+@media (min-width:900px){.gallery-grid{column-count:3}}
+@media (min-width:1280px){.gallery-grid{column-count:4}}
+.gallery-item{
+  break-inside:avoid;margin-bottom:16px;border-radius:var(--radius-m);overflow:hidden;position:relative;
+  cursor:zoom-in;
+}
+.gallery-item img{width:100%;display:block;transition:transform .7s var(--ease)}
+.gallery-item:hover img{transform:scale(1.06)}
+.gallery-caption{
+  position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.78));
+  display:flex;align-items:flex-end;padding:18px;opacity:0;transition:opacity .35s var(--ease);
+}
+.gallery-item:hover .gallery-caption{opacity:1}
+.gallery-caption span{color:#fff;font-family:var(--font-heading);font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+
+#lightbox{
+  position:fixed;inset:0;z-index:1100;background:rgba(6,6,7,.94);backdrop-filter:blur(6px);
+  display:flex;align-items:center;justify-content:center;padding:40px;
+  opacity:0;visibility:hidden;transition:opacity .35s var(--ease),visibility .35s var(--ease);
+}
+#lightbox.open{opacity:1;visibility:visible}
+#lightbox img{max-width:min(90vw,1100px);max-height:82vh;border-radius:var(--radius-m);box-shadow:0 30px 80px rgba(0,0,0,.6)}
+#lightbox .lb-caption{color:#fff;text-align:center;margin-top:16px;font-family:var(--font-heading);letter-spacing:.04em;text-transform:uppercase;font-size:.85rem}
+.lb-close,.lb-nav{
+  position:absolute;width:48px;height:48px;border-radius:100px;background:rgba(255,255,255,.08);
+  display:flex;align-items:center;justify-content:center;color:#fff;transition:background .3s;
+}
+.lb-close:hover,.lb-nav:hover{background:var(--c-crimson)}
+.lb-close{top:24px;right:24px}
+.lb-nav svg{width:20px;height:20px}
+.lb-prev{left:16px;top:50%;transform:translateY(-50%)}
+.lb-next{right:16px;top:50%;transform:translateY(-50%)}
+@media (max-width:640px){.lb-prev{left:6px}.lb-next{right:6px}}
+
+/* ============================================================
+   TESTIMONIALS
+   ============================================================ */
+.testi-wrap{position:relative;max-width:760px;margin:0 auto}
+.testi-track{overflow:hidden}
+.testi-slides{display:flex;transition:transform .6s var(--ease)}
+.testi-slide{flex:0 0 100%;padding:8px}
+.testi-card{
+  background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--radius-l);
+  padding:44px;text-align:center;
+}
+.testi-stars{display:flex;justify-content:center;gap:4px;margin-bottom:20px}
+.testi-stars svg{width:18px;height:18px;color:var(--c-crimson)}
+.testi-quote{font-size:1.15rem;line-height:1.7;color:var(--c-text);margin-bottom:26px}
+.testi-person{display:flex;align-items:center;justify-content:center;gap:14px}
+.testi-avatar{
+  width:50px;height:50px;border-radius:100px;background:var(--grad-accent);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-family:var(--font-heading);font-weight:600;
+}
+.testi-name{font-family:var(--font-heading);text-transform:uppercase;font-size:.88rem;letter-spacing:.03em}
+.testi-role{font-size:.78rem;color:var(--c-text-faint)}
+.testi-dots{display:flex;justify-content:center;gap:9px;margin-top:28px}
+.testi-dots button{width:9px;height:9px;border-radius:100px;background:var(--c-border);transition:background .3s,transform .3s}
+.testi-dots button.active{background:var(--c-crimson);transform:scale(1.25)}
+
+/* ============================================================
+   FAQ
+   ============================================================ */
+.faq-list{max-width:820px;display:grid;gap:14px}
+.faq-item{background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--radius-m);overflow:hidden}
+.faq-q{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:22px 26px;text-align:left;font-family:var(--font-heading);font-size:1rem;text-transform:uppercase;letter-spacing:.01em;
+}
+.faq-q svg{width:16px;height:16px;flex-shrink:0;color:var(--c-crimson);transition:transform .35s var(--ease)}
+.faq-item.open .faq-q svg{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s var(--ease)}
+.faq-a p{padding:0 26px 24px;color:var(--c-text-dim);font-size:.92rem;max-width:640px}
+
+/* ============================================================
+   NEWSLETTER
+   ============================================================ */
+.newsletter-box{
+  background:var(--grad-accent);border-radius:var(--radius-l);padding:56px 40px;text-align:center;color:#fff;
+  position:relative;overflow:hidden;
+}
+.newsletter-box h3{font-family:var(--font-display);font-size:clamp(1.8rem,3.4vw,2.6rem);text-transform:uppercase;margin-bottom:10px}
+.newsletter-box p{color:rgba(255,255,255,.85);max-width:480px;margin:0 auto 30px}
+.newsletter-form{display:flex;flex-wrap:wrap;gap:12px;max-width:460px;margin:0 auto;justify-content:center}
+.newsletter-form input{
+  flex:1 1 240px;padding:15px 18px;border-radius:2px;border:1.5px solid rgba(255,255,255,.4);
+  background:rgba(255,255,255,.1);color:#fff;
+}
+.newsletter-form input::placeholder{color:rgba(255,255,255,.7)}
+.newsletter-form .btn{background:#fff;color:var(--c-deep-red);box-shadow:none}
+.newsletter-form .btn:hover{background:#f2f2f2}
+.newsletter-msg{margin-top:16px;font-size:.85rem;color:#fff;display:none}
+.newsletter-msg.show{display:block}
+
+/* ============================================================
+   CONTACT
+   ============================================================ */
+.contact-grid{display:grid;grid-template-columns:1fr;gap:28px}
+@media (min-width:960px){.contact-grid{grid-template-columns:1.1fr 1fr}}
+.contact-map{border-radius:var(--radius-l);overflow:hidden;border:1px solid var(--c-border);min-height:400px}
+.contact-map iframe{width:100%;height:100%;min-height:400px;border:0;filter:grayscale(.25) contrast(1.05)}
+html[data-theme="dark"] .contact-map iframe{filter:grayscale(.4) invert(.92) contrast(.9)}
+.contact-card{background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--radius-l);padding:36px}
+.contact-row{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid var(--c-border)}
+.contact-row:first-child{padding-top:0}
+.contact-row:last-of-type{border-bottom:none}
+.contact-row svg{width:22px;height:22px;color:var(--c-crimson);flex-shrink:0;margin-top:2px}
+.contact-row h4{font-size:.82rem;text-transform:uppercase;letter-spacing:.05em;color:var(--c-text-faint);margin-bottom:4px;font-family:var(--font-heading)}
+.contact-row p{font-size:.98rem}
+.contact-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer{background:var(--c-bg-alt);border-top:1px solid var(--c-border);padding:80px 0 0}
+.footer-grid{display:grid;grid-template-columns:1fr;gap:44px;padding-bottom:56px}
+@media (min-width:720px){.footer-grid{grid-template-columns:1.4fr 1fr 1fr 1fr}}
+.footer-brand p{color:var(--c-text-dim);font-size:.9rem;margin:18px 0 24px;max-width:280px}
+.footer-social{display:flex;gap:10px}
+.footer-social a{
+  width:40px;height:40px;border-radius:100px;border:1px solid var(--c-border);display:flex;align-items:center;justify-content:center;
+  transition:background .3s,border-color .3s,transform .3s;
+}
+.footer-social a:hover{background:var(--c-crimson);border-color:var(--c-crimson);transform:translateY(-3px)}
+.footer-social svg{width:16px;height:16px}
+.footer-col h4{font-family:var(--font-heading);text-transform:uppercase;font-size:.82rem;letter-spacing:.06em;margin-bottom:20px;color:var(--c-text-faint)}
+.footer-col ul{display:grid;gap:12px}
+.footer-col a{color:var(--c-text-dim);font-size:.9rem;transition:color .3s}
+.footer-col a:hover{color:var(--c-crimson)}
+.footer-col address{font-style:normal;color:var(--c-text-dim);font-size:.9rem;line-height:1.8}
+.footer-bottom{
+  border-top:1px solid var(--c-border);padding:26px 0;display:flex;flex-wrap:wrap;gap:16px;
+  justify-content:space-between;align-items:center;color:var(--c-text-faint);font-size:.82rem;
+}
+.footer-bottom .links{display:flex;gap:22px;flex-wrap:wrap}
+.footer-bottom a:hover{color:var(--c-crimson)}
+
+/* ============================================================
+   FLOATING ELEMENTS
+   ============================================================ */
+.floating-stack{position:fixed;right:22px;bottom:22px;z-index:700;display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+.fab{
+  width:52px;height:52px;border-radius:100px;display:flex;align-items:center;justify-content:center;
+  box-shadow:0 12px 30px -8px rgba(0,0,0,.4);transition:transform .3s var(--ease);
+}
+.fab:hover{transform:scale(1.08)}
+.fab svg{width:22px;height:22px}
+.fab-call{background:var(--grad-accent);color:#fff}
+.fab-wa{background:#25D366;color:#fff}
+.fab-top{
+  background:var(--c-surface);border:1px solid var(--c-border);color:var(--c-text);
+  opacity:0;visibility:hidden;transform:translateY(10px);
+}
+.fab-top.show{opacity:1;visibility:visible;transform:translateY(0)}
+
+.sticky-cta{
+  position:fixed;left:0;right:0;bottom:0;z-index:650;background:var(--c-surface);border-top:1px solid var(--c-border);
+  padding:12px 20px;display:flex;gap:12px;align-items:center;justify-content:space-between;
+  transform:translateY(100%);transition:transform .4s var(--ease);
+}
+.sticky-cta.show{transform:translateY(0)}
+.sticky-cta p{font-size:.85rem;font-family:var(--font-heading);text-transform:uppercase;letter-spacing:.03em}
+@media (min-width:860px){.sticky-cta{display:none}}
+
+#cookie-banner{
+  position:fixed;left:20px;right:20px;bottom:20px;max-width:460px;z-index:1000;
+  background:var(--c-surface);border:1px solid var(--c-border);border-radius:var(--radius-m);
+  padding:22px;box-shadow:var(--shadow-soft);
+  transform:translateY(140%);transition:transform .5s var(--ease);
+}
+#cookie-banner.show{transform:translateY(0)}
+#cookie-banner p{font-size:.85rem;color:var(--c-text-dim);margin-bottom:16px}
+#cookie-banner .row{display:flex;gap:10px;flex-wrap:wrap}
+
+/* ============================================================
+   SKIP LINK / MISC
+   ============================================================ */
+.skip-link{
+  position:fixed;top:-100px;left:16px;background:var(--c-crimson);color:#fff;padding:12px 20px;
+  z-index:2000;border-radius:6px;transition:top .3s;
+}
+.skip-link:focus{top:16px}
+.divider-fade{height:1px;background:linear-gradient(90deg,transparent,var(--c-border),transparent);margin:0}
+::selection{background:var(--c-crimson);color:#fff}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:var(--c-bg)}
+::-webkit-scrollbar-thumb{background:var(--c-surface-2);border-radius:10px}
+::-webkit-scrollbar-thumb:hover{background:var(--c-crimson)}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div id="loading-screen" aria-hidden="true">
+  <div class="loader-mark">
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="38" stroke="#232326" stroke-width="7"/>
+      <path d="M50 12a38 38 0 0 1 38 38" stroke="#c81e3a" stroke-width="7" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="loader-word">THE <span>ONE</span> GYM</div>
+</div>
+
+<div id="scroll-progress"></div>
+<div class="nav-scrim" id="nav-scrim"></div>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<header id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="brand" aria-label="The ONE Gym — Home">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="34" stroke="currentColor" stroke-width="8"/>
+        <line x1="21" y1="71" x2="79" y2="29" stroke="#c81e3a" stroke-width="9" stroke-linecap="round"/>
+      </svg>
+      THE <b>ONE</b>&nbsp;GYM
+    </a>
+
+    <nav aria-label="Primary">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li class="nav-drop-wrap" id="zones-drop">
+          <button class="nav-drop-toggle" aria-expanded="false" aria-haspopup="true" id="zones-drop-btn">
+            <span data-i18n="nav.zones">Zones</span>
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M1 3l4 4 4-4" stroke="currentColor" stroke-width="1.4"/></svg>
+          </button>
+          <ul class="nav-drop">
+            <li><a href="#general-gym" data-i18n="nav.generalGym">General Gym</a></li>
+            <li><a href="#women-gym" data-i18n="nav.womenGym">Women Only Gym</a></li>
+            <li><a href="#fitness-bar" data-i18n="nav.fitnessBar">Fitness Bar</a></li>
+          </ul>
+        </li>
+        <li><a href="#plans" data-i18n="nav.plans">Membership Plans</a></li>
+        <li><a href="#coaches" data-i18n="nav.coaches">Coaches</a></li>
+        <li><a href="#schedule" data-i18n="nav.schedule">Coach Schedule</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        <li class="lang-switch" id="lang-switch-mobile" style="margin-top:14px">
+          <button data-lang="hy" class="active">AM</button>
+          <button data-lang="ru">RU</button>
+          <button data-lang="en">EN</button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-switch" id="lang-switch-desktop">
+        <button data-lang="hy" class="active">AM</button>
+        <button data-lang="ru">RU</button>
+        <button data-lang="en">EN</button>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a href="#plans" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.join">Become a Member</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="home" aria-label="Hero">
+  <div id="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1529420681125-2878126af4a9?auto=format&fit=crop&w=1920&q=80"
+           alt="The ONE Gym premium training floor in Yerevan" fetchpriority="high">
+    </div>
+    <div class="hero-content">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Premium Fitness Club · Yerevan</p>
+      <h1 class="hero-headline" data-i18n="hero.headline">ONE GYM. ONE STANDARD. <em>NO LIMITS.</em></h1>
+      <p class="hero-sub" data-i18n="hero.sub">Premium training, elite coaching and a private fitness bar — all under one roof in the heart of Yerevan.</p>
+      <div class="hero-actions">
+        <a href="#plans" class="btn btn-primary" data-i18n="hero.ctaJoin">Become a Member</a>
+        <a href="#plans" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.4)" data-i18n="hero.ctaPlans">View Membership Plans</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num"><span class="counter" data-target="2500">0</span><span>+</span></div>
+          <div class="hero-stat-label" data-i18n="hero.statMembers">Members</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num"><span class="counter" data-target="18">0</span><span>+</span></div>
+          <div class="hero-stat-label" data-i18n="hero.statCoaches">Professional Coaches</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num"><span class="counter" data-target="3">0</span></div>
+          <div class="hero-stat-label" data-i18n="hero.statZones">Training Zones</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num"><span class="counter" data-target="9">0</span><span>+</span></div>
+          <div class="hero-stat-label" data-i18n="hero.statYears">Years of Experience</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span class="line"></span></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section id="about" class="section-pad">
+  <div class="container about-grid">
+    <div class="about-media reveal">
+      <img src="https://images.unsplash.com/photo-1545612036-2872840642dc?auto=format&fit=crop&w=1100&q=78"
+           alt="Professional strength training equipment inside The ONE Gym" loading="lazy" width="880" height="1100">
+      <div class="about-badge">
+        <strong>9+</strong>
+        <span data-i18n="about.badgeYears">Years shaping<br>Yerevan's fitness scene</span>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-1">
+      <p class="eyebrow" data-i18n="about.eyebrow">About The ONE Gym</p>
+      <h2 class="section-title" data-i18n="about.title">Built for people who take training <em>seriously.</em></h2>
+      <p class="about-body" data-i18n="about.body">The ONE Gym is Yerevan's premium training destination, built around one idea: excellence without compromise. Every machine, every plate and every corner of our space is chosen for performance and comfort. Our coaching staff trains with genuine care, our environment stays immaculate, and every member gets a space engineered for their goals.</p>
+      <ul class="about-list">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="about.point1">Latest professional equipment, maintained to a five-star standard</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="about.point2">A clean, meticulously kept environment, always</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="about.point3">A friendly, welcoming atmosphere for every level</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="about.point4">Professional coaching staff invested in your progress</span></li>
+      </ul>
+      <a href="#about" class="btn btn-outline" data-i18n="about.cta">Discover The ONE Gym</a>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="slash-divider" aria-hidden="true"></div></div>
+
+<!-- ============================================================
+     WHY CHOOSE US
+     ============================================================ -->
+<section id="why" class="section-pad" aria-label="Why choose The ONE Gym">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="why.eyebrow">Why Choose Us</p>
+      <h2 class="section-title" data-i18n="why.title">Seven reasons members <em>never leave.</em></h2>
+    </div>
+    <div class="why-grid reveal reveal-delay-1">
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 7v10M18 7v10M2 10h4M18 10h4M2 14h4M18 14h4M6 12h12"/></svg>
+        <h3 data-i18n="why.item1Title">Latest Equipment</h3>
+        <p data-i18n="why.item1Body">Precision machines and free weights, upgraded every season.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        <h3 data-i18n="why.item2Title">Professional Coaches</h3>
+        <p data-i18n="why.item2Body">Certified specialists who plan every rep around your goal.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.4-7-10a7 7 0 0 1 14 0c0 5.6-7 10-7 10z"/><circle cx="12" cy="11" r="2.4"/></svg>
+        <h3 data-i18n="why.item3Title">Women Only Area</h3>
+        <p data-i18n="why.item3Body">A private, fully equipped studio reserved for women.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3v6a4 4 0 0 0 8 0V3M12 13v8"/></svg>
+        <h3 data-i18n="why.item4Title">Fitness Bar</h3>
+        <p data-i18n="why.item4Body">Fresh shakes and nutrition support right on the floor.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 13l4 4L19 7"/></svg>
+        <h3 data-i18n="why.item5Title">Clean Environment</h3>
+        <p data-i18n="why.item5Body">Hospital-grade cleaning routines, all day, every day.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l2.6 5.9L21 10l-4.8 4.1L17.8 21 12 17.5 6.2 21l1.6-6.9L3 10l6.4-1.1z"/></svg>
+        <h3 data-i18n="why.item6Title">Comfortable Atmosphere</h3>
+        <p data-i18n="why.item6Body">Climate control, natural light and curated sound design.</p>
+      </div>
+      <div class="why-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <h3 data-i18n="why.item7Title">Convenient Location</h3>
+        <p data-i18n="why.item7Body">On Azatutyan Avenue, with easy parking and access.</p>
+      </div>
+      <div class="why-card" style="display:flex;flex-direction:column;justify-content:center;background:var(--grad-accent)">
+        <h3 style="color:#fff" data-i18n="why.ctaTitle">Ready to start?</h3>
+        <a href="#plans" class="btn btn-sm" style="background:#fff;color:var(--c-deep-red);margin-top:14px;width:fit-content" data-i18n="why.ctaBtn">See Plans</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TRAINING ZONES
+     ============================================================ -->
+<section id="zones" class="section-pad" style="background:var(--c-bg-alt)">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="zones.eyebrow">Training Zones</p>
+      <h2 class="section-title" data-i18n="zones.title">Three spaces. <em>One membership.</em></h2>
+      <p class="section-lede" data-i18n="zones.lede">Every zone is purpose-built — from heavy strength training to a private studio to full nutrition support.</p>
+    </div>
+    <div class="zones-grid">
+      <article class="zone-card reveal" id="general-gym">
+        <div class="zone-media">
+          <span class="zone-tag" data-i18n="zones.generalTag">01 · Strength</span>
+          <img src="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&w=900&q=78" alt="General Gym strength floor with barbells and free weights" loading="lazy" width="900" height="675">
+        </div>
+        <div class="zone-body">
+          <h3 data-i18n="zones.generalTitle">General Gym</h3>
+          <p data-i18n="zones.generalBody">A full-scale strength and cardio floor with premium free weights, machines and functional rigs for every training style.</p>
+          <div class="zone-features">
+            <span data-i18n="zones.generalF1">Free Weights</span>
+            <span data-i18n="zones.generalF2">Cardio Deck</span>
+            <span data-i18n="zones.generalF3">Functional Rig</span>
+          </div>
+        </div>
+      </article>
+      <article class="zone-card reveal reveal-delay-1" id="women-gym">
+        <div class="zone-media">
+          <span class="zone-tag" data-i18n="zones.womenTag">02 · Private</span>
+          <img src="https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?auto=format&fit=crop&w=900&q=78" alt="Women Only Gym private training studio" loading="lazy" width="900" height="675">
+        </div>
+        <div class="zone-body">
+          <h3 data-i18n="zones.womenTitle">Women Only Gym</h3>
+          <p data-i18n="zones.womenBody">A private, fully-equipped studio reserved exclusively for women — comfortable, secure and led by female coaches.</p>
+          <div class="zone-features">
+            <span data-i18n="zones.womenF1">Private Studio</span>
+            <span data-i18n="zones.womenF2">Female Coaches</span>
+            <span data-i18n="zones.womenF3">Pilates & Mobility</span>
+          </div>
+        </div>
+      </article>
+      <article class="zone-card reveal reveal-delay-2" id="fitness-bar">
+        <div class="zone-media">
+          <span class="zone-tag" data-i18n="zones.barTag">03 · Nutrition</span>
+          <img src="https://images.unsplash.com/photo-1698413463628-b6d06fb71c9e?auto=format&fit=crop&w=900&q=78" alt="Fitness Bar serving fresh shakes and nutrition" loading="lazy" width="900" height="675">
+        </div>
+        <div class="zone-body">
+          <h3 data-i18n="zones.barTitle">Fitness Bar</h3>
+          <p data-i18n="zones.barBody">Fresh protein shakes, cold-pressed juice and nutrition guidance from our team — fuel your session, right on the floor.</p>
+          <div class="zone-features">
+            <span data-i18n="zones.barF1">Protein Shakes</span>
+            <span data-i18n="zones.barF2">Fresh Juice</span>
+            <span data-i18n="zones.barF3">Nutrition Advice</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MEMBERSHIP PLANS
+     ============================================================ -->
+<section id="plans" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="plans.eyebrow">Membership Plans</p>
+      <h2 class="section-title" data-i18n="plans.title">Pick your <em>commitment.</em></h2>
+      <p class="section-lede" data-i18n="plans.lede">Every plan includes full access to the General Gym, Women Only studio and Fitness Bar discounts.</p>
+    </div>
+    <div class="plans-grid">
+      <div class="plan-card reveal">
+        <div class="plan-name" data-i18n="plans.monthlyName">Monthly</div>
+        <div class="plan-price">25,000<sup>AMD</sup></div>
+        <div class="plan-per" data-i18n="plans.perMonth">per month</div>
+        <ul class="plan-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f1">Full gym access</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f2">Locker &amp; shower</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f3">Free fitness assessment</span></li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-block" data-i18n="plans.cta">Join Now</a>
+      </div>
+
+      <div class="plan-card reveal reveal-delay-1">
+        <div class="plan-name" data-i18n="plans.threeName">3 Months</div>
+        <div class="plan-price">66,000<sup>AMD</sup></div>
+        <div class="plan-per" data-i18n="plans.perThree">22,000 / month</div>
+        <ul class="plan-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f1">Full gym access</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f2">Locker &amp; shower</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f4">2 group classes / week</span></li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-block" data-i18n="plans.cta">Join Now</a>
+      </div>
+
+      <div class="plan-card popular reveal reveal-delay-2">
+        <span class="plan-badge" data-i18n="plans.popular">Most Popular</span>
+        <div class="plan-name" data-i18n="plans.sixName">6 Months</div>
+        <div class="plan-price">120,000<sup>AMD</sup></div>
+        <div class="plan-per" data-i18n="plans.perSix">20,000 / month</div>
+        <ul class="plan-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f1">Full gym access</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f5">Unlimited group classes</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f6">10% Fitness Bar discount</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f7">1 free PT session / month</span></li>
+        </ul>
+        <a href="#contact" class="btn btn-block" style="background:#fff;color:var(--c-deep-red)" data-i18n="plans.cta">Join Now</a>
+      </div>
+
+      <div class="plan-card reveal reveal-delay-3">
+        <div class="plan-name" data-i18n="plans.twelveName">12 Months</div>
+        <div class="plan-price">204,000<sup>AMD</sup></div>
+        <div class="plan-per" data-i18n="plans.perTwelve">17,000 / month</div>
+        <ul class="plan-features">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f5">Unlimited group classes</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f8">15% Fitness Bar discount</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="plans.f9">2 free PT sessions / month</span></li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-block" data-i18n="plans.cta">Join Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     COACHES
+     ============================================================ -->
+<section id="coaches" class="section-pad" style="background:var(--c-bg-alt)">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="coaches.eyebrow">Coaches</p>
+      <h2 class="section-title" data-i18n="coaches.title">Trained by <em>people who care.</em></h2>
+    </div>
+    <div class="coach-grid">
+      <article class="coach-card reveal" data-coach>
+        <div class="coach-photo">
+          <a href="#" class="coach-ig" aria-label="Armen Petrosyan on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        </div>
+        <div class="coach-info">
+          <h3>Armen Petrosyan</h3>
+          <div class="coach-role" data-i18n="coaches.c1Role">Strength &amp; Conditioning</div>
+          <div class="coach-exp"><span data-i18n="coaches.expLabel">Experience:</span>&nbsp;<span data-i18n="coaches.c1Exp">10 years</span></div>
+          <p class="coach-bio" data-i18n="coaches.c1Bio">Former competitive powerlifter turned coach. Armen builds strength programs that are safe, structured and genuinely effective for every level.</p>
+          <button class="coach-toggle" data-i18n="coaches.readMore">Read Profile <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 4l4 4 4-4"/></svg></button>
+        </div>
+      </article>
+
+      <article class="coach-card reveal reveal-delay-1" data-coach>
+        <div class="coach-photo">
+          <a href="#" class="coach-ig" aria-label="Anahit Grigoryan on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        </div>
+        <div class="coach-info">
+          <h3>Anahit Grigoryan</h3>
+          <div class="coach-role" data-i18n="coaches.c2Role">Women's Fitness &amp; Pilates</div>
+          <div class="coach-exp"><span data-i18n="coaches.expLabel">Experience:</span>&nbsp;<span data-i18n="coaches.c2Exp">7 years</span></div>
+          <p class="coach-bio" data-i18n="coaches.c2Bio">Anahit leads the Women Only studio with a calm, encouraging style — blending strength, Pilates and mobility for lasting results.</p>
+          <button class="coach-toggle" data-i18n="coaches.readMore">Read Profile <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 4l4 4 4-4"/></svg></button>
+        </div>
+      </article>
+
+      <article class="coach-card reveal reveal-delay-2" data-coach>
+        <div class="coach-photo">
+          <a href="#" class="coach-ig" aria-label="Davit Sargsyan on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        </div>
+        <div class="coach-info">
+          <h3>Davit Sargsyan</h3>
+          <div class="coach-role" data-i18n="coaches.c3Role">Functional &amp; Conditioning</div>
+          <div class="coach-exp"><span data-i18n="coaches.expLabel">Experience:</span>&nbsp;<span data-i18n="coaches.c3Exp">8 years</span></div>
+          <p class="coach-bio" data-i18n="coaches.c3Bio">High-energy functional training and conditioning. Davit designs sessions that push conditioning without sacrificing form.</p>
+          <button class="coach-toggle" data-i18n="coaches.readMore">Read Profile <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 4l4 4 4-4"/></svg></button>
+        </div>
+      </article>
+
+      <article class="coach-card reveal reveal-delay-3" data-coach>
+        <div class="coach-photo">
+          <a href="#" class="coach-ig" aria-label="Mariam Avetisyan on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+        </div>
+        <div class="coach-info">
+          <h3>Mariam Avetisyan</h3>
+          <div class="coach-role" data-i18n="coaches.c4Role">Nutrition &amp; Weight Management</div>
+          <div class="coach-exp"><span data-i18n="coaches.expLabel">Experience:</span>&nbsp;<span data-i18n="coaches.c4Exp">6 years</span></div>
+          <p class="coach-bio" data-i18n="coaches.c4Bio">Mariam pairs training plans with practical nutrition guidance, helping members build habits that actually stick.</p>
+          <button class="coach-toggle" data-i18n="coaches.readMore">Read Profile <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 4l4 4 4-4"/></svg></button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     COACH SCHEDULE
+     ============================================================ -->
+<section id="schedule" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="schedule.eyebrow">Coach Schedule</p>
+      <h2 class="section-title" data-i18n="schedule.title">Weekly <em>availability.</em></h2>
+      <p class="section-lede" data-i18n="schedule.lede">Book a session directly on the floor, or reserve a slot ahead of time at reception.</p>
+    </div>
+
+    <div class="schedule-wrap reveal reveal-delay-1">
+      <div class="schedule-scroll">
+        <table class="schedule">
+          <thead>
+            <tr>
+              <th data-i18n="schedule.coach">Coach</th>
+              <th data-i18n="schedule.mon">Mon</th>
+              <th data-i18n="schedule.tue">Tue</th>
+              <th data-i18n="schedule.wed">Wed</th>
+              <th data-i18n="schedule.thu">Thu</th>
+              <th data-i18n="schedule.fri">Fri</th>
+              <th data-i18n="schedule.sat">Sat</th>
+              <th data-i18n="schedule.sun">Sun</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Armen P.</td>
+              <td>08:00–16:00</td><td>08:00–16:00</td><td>08:00–16:00</td><td>08:00–16:00</td><td>08:00–16:00</td>
+              <td>10:00–14:00</td><td class="off" data-i18n="schedule.off">Off</td>
+            </tr>
+            <tr>
+              <td>Anahit G.</td>
+              <td>10:00–18:00</td><td>10:00–18:00</td><td>10:00–18:00</td><td>10:00–18:00</td><td>10:00–18:00</td>
+              <td>10:00–14:00</td><td>10:00–14:00</td>
+            </tr>
+            <tr>
+              <td>Davit S.</td>
+              <td>14:00–22:00</td><td>14:00–22:00</td><td>14:00–22:00</td><td>14:00–22:00</td><td>14:00–22:00</td>
+              <td>12:00–18:00</td><td class="off" data-i18n="schedule.off">Off</td>
+            </tr>
+            <tr>
+              <td>Mariam A.</td>
+              <td>09:00–13:00</td><td class="off" data-i18n="schedule.appt">By appt.</td><td>09:00–13:00</td><td class="off" data-i18n="schedule.appt">By appt.</td><td>09:00–13:00</td>
+              <td>11:00–15:00</td><td class="off" data-i18n="schedule.off">Off</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="schedule-cards">
+        <div class="schedule-card">
+          <h4>Armen P. — <span data-i18n="coaches.c1Role">Strength &amp; Conditioning</span></h4>
+          <div class="row"><span data-i18n="schedule.weekdays">Mon–Fri</span><span>08:00–16:00</span></div>
+          <div class="row"><span data-i18n="schedule.sat">Sat</span><span>10:00–14:00</span></div>
+          <div class="row"><span data-i18n="schedule.sun">Sun</span><span class="off" data-i18n="schedule.off">Off</span></div>
+        </div>
+        <div class="schedule-card">
+          <h4>Anahit G. — <span data-i18n="coaches.c2Role">Women's Fitness &amp; Pilates</span></h4>
+          <div class="row"><span data-i18n="schedule.weekdays">Mon–Fri</span><span>10:00–18:00</span></div>
+          <div class="row"><span data-i18n="schedule.weekend">Sat–Sun</span><span>10:00–14:00</span></div>
+        </div>
+        <div class="schedule-card">
+          <h4>Davit S. — <span data-i18n="coaches.c3Role">Functional &amp; Conditioning</span></h4>
+          <div class="row"><span data-i18n="schedule.weekdays">Mon–Fri</span><span>14:00–22:00</span></div>
+          <div class="row"><span data-i18n="schedule.sat">Sat</span><span>12:00–18:00</span></div>
+          <div class="row"><span data-i18n="schedule.sun">Sun</span><span class="off" data-i18n="schedule.off">Off</span></div>
+        </div>
+        <div class="schedule-card">
+          <h4>Mariam A. — <span data-i18n="coaches.c4Role">Nutrition &amp; Weight Management</span></h4>
+          <div class="row"><span data-i18n="schedule.monWedFri">Mon / Wed / Fri</span><span>09:00–13:00</span></div>
+          <div class="row"><span data-i18n="schedule.sat">Sat</span><span>11:00–15:00</span></div>
+          <div class="row"><span data-i18n="schedule.otherDays">Other days</span><span class="off" data-i18n="schedule.appt">By appt.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     GALLERY
+     ============================================================ -->
+<section id="gallery" class="section-pad" style="background:var(--c-bg-alt)">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="gallery.eyebrow">Gallery</p>
+      <h2 class="section-title" data-i18n="gallery.title">Inside <em>The ONE Gym.</em></h2>
+    </div>
+    <div class="gallery-grid reveal reveal-delay-1" id="gallery-grid">
+      <!-- items injected identically in markup for SEO + no-js fallback -->
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c1">
+        <img src="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&w=700&h=880&fit=crop&q=75" loading="lazy" alt="Strength training floor" width="700" height="880">
+        <div class="gallery-caption"><span data-i18n="gallery.c1">Strength Zone</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c2">
+        <img src="https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?auto=format&fit=crop&w=700&h=520&fit=crop&q=75" loading="lazy" alt="Women's studio training" width="700" height="520">
+        <div class="gallery-caption"><span data-i18n="gallery.c2">Women's Studio</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1698413463628-b6d06fb71c9e?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c3">
+        <img src="https://images.unsplash.com/photo-1698413463628-b6d06fb71c9e?auto=format&fit=crop&w=700&h=700&fit=crop&q=75" loading="lazy" alt="Fitness bar fresh shakes" width="700" height="700">
+        <div class="gallery-caption"><span data-i18n="gallery.c3">Fitness Bar</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1529420681125-2878126af4a9?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c4">
+        <img src="https://images.unsplash.com/photo-1529420681125-2878126af4a9?auto=format&fit=crop&w=700&h=950&fit=crop&q=75" loading="lazy" alt="Training floor wide view" width="700" height="950">
+        <div class="gallery-caption"><span data-i18n="gallery.c4">The Floor</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1545612036-2872840642dc?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c5">
+        <img src="https://images.unsplash.com/photo-1545612036-2872840642dc?auto=format&fit=crop&w=700&h=560&fit=crop&q=75" loading="lazy" alt="Free weights equipment" width="700" height="560">
+        <div class="gallery-caption"><span data-i18n="gallery.c5">Free Weights</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c6">
+        <img src="https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&w=700&h=840&fit=crop&q=75&crop=faces" loading="lazy" alt="Member training with barbell" width="700" height="840">
+        <div class="gallery-caption"><span data-i18n="gallery.c6">Personal Training</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c7">
+        <img src="https://images.unsplash.com/photo-1434682772747-f16d3ea162c3?auto=format&fit=crop&w=700&h=620&fit=crop&q=75&crop=entropy" loading="lazy" alt="Women only training session" width="700" height="620">
+        <div class="gallery-caption"><span data-i18n="gallery.c7">Studio Session</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1698413463628-b6d06fb71c9e?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c8">
+        <img src="https://images.unsplash.com/photo-1698413463628-b6d06fb71c9e?auto=format&fit=crop&w=700&h=900&fit=crop&q=75&crop=entropy" loading="lazy" alt="Fresh smoothie close up" width="700" height="900">
+        <div class="gallery-caption"><span data-i18n="gallery.c8">Fresh &amp; Fuelled</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1545612036-2872840642dc?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c9">
+        <img src="https://images.unsplash.com/photo-1545612036-2872840642dc?auto=format&fit=crop&w=700&h=940&fit=crop&q=75&crop=entropy" loading="lazy" alt="Equipment detail shot" width="700" height="940">
+        <div class="gallery-caption"><span data-i18n="gallery.c9">Precision Equipment</span></div>
+      </figure>
+      <figure class="gallery-item" data-full="https://images.unsplash.com/photo-1529420681125-2878126af4a9?auto=format&fit=crop&w=1400&q=80" data-caption-key="gallery.c10">
+        <img src="https://images.unsplash.com/photo-1529420681125-2878126af4a9?auto=format&fit=crop&w=700&h=540&fit=crop&q=75&crop=entropy" loading="lazy" alt="Gym interior wide angle" width="700" height="540">
+        <div class="gallery-caption"><span data-i18n="gallery.c10">The Space</span></div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" id="lb-close" aria-label="Close">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </button>
+  <button class="lb-nav lb-prev" id="lb-prev" aria-label="Previous image">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <div>
+    <img id="lb-img" src="" alt="">
+    <p class="lb-caption" id="lb-caption"></p>
+  </div>
+  <button class="lb-nav lb-next" id="lb-next" aria-label="Next image">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+  </button>
+</div>
+
+<!-- ============================================================
+     TESTIMONIALS
+     ============================================================ -->
+<section id="testimonials" class="section-pad" aria-label="Testimonials">
+  <div class="container">
+    <div class="section-head reveal" style="text-align:center;margin-inline:auto">
+      <p class="eyebrow" style="justify-content:center" data-i18n="testi.eyebrow">Testimonials</p>
+      <h2 class="section-title" style="margin-inline:auto" data-i18n="testi.title">What our <em>members say.</em></h2>
+    </div>
+
+    <div class="testi-wrap reveal reveal-delay-1">
+      <div class="testi-track">
+        <div class="testi-slides" id="testi-slides">
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-stars">
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+              </div>
+              <p class="testi-quote" data-i18n="testi.q1">The ONE Gym changed how I train. The coaches actually watch your form, the equipment is always available, and the whole place just feels premium.</p>
+              <div class="testi-person">
+                <div class="testi-avatar">TM</div>
+                <div>
+                  <div class="testi-name">Tigran M.</div>
+                  <div class="testi-role" data-i18n="testi.member1">Member since 2023</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-stars">
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+              </div>
+              <p class="testi-quote" data-i18n="testi.q2">The Women Only studio is exactly what I needed — private, calm and led by a coach who genuinely listens. I finally look forward to training.</p>
+              <div class="testi-person">
+                <div class="testi-avatar">LH</div>
+                <div>
+                  <div class="testi-name">Lilit H.</div>
+                  <div class="testi-role" data-i18n="testi.member2">Member since 2024</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testi-slide">
+            <div class="testi-card">
+              <div class="testi-stars">
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+                <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.2L15.6 18 10 14.7 4.4 18l1.4-6.3L1 7.5l6.4-.6z"/></svg>
+              </div>
+              <p class="testi-quote" data-i18n="testi.q3">Twelve months in and I've never once felt like just a number. The fitness bar after a heavy session is a small thing that makes a big difference.</p>
+              <div class="testi-person">
+                <div class="testi-avatar">VS</div>
+                <div>
+                  <div class="testi-name">Vahagn S.</div>
+                  <div class="testi-role" data-i18n="testi.member3">Member since 2022</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-dots" id="testi-dots">
+        <button class="active" aria-label="Testimonial 1"></button>
+        <button aria-label="Testimonial 2"></button>
+        <button aria-label="Testimonial 3"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section id="faq" class="section-pad" style="background:var(--c-bg-alt)">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="faq.eyebrow">FAQ</p>
+      <h2 class="section-title" data-i18n="faq.title">Common <em>questions.</em></h2>
+    </div>
+    <div class="faq-list reveal reveal-delay-1">
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q1">Do you offer a trial session?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p data-i18n="faq.a1">Yes — first-time visitors can book a free guided trial session and facility tour before committing to a plan.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q2">What are your working hours?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p data-i18n="faq.a2">We're open Monday–Friday from 07:00 to 23:00, and Saturday–Sunday from 09:00 to 22:00.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q3">Is the Women Only area really private?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p data-i18n="faq.a3">Yes, it's a fully separate studio with its own entrance and equipment, accessible only to women members and female coaches.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q4">Can I freeze my membership?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p data-i18n="faq.a4">Yes, memberships of 3 months or longer can be frozen once for up to 14 days per period at no extra cost.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.q5">Do you offer personal training?</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+        <div class="faq-a"><p data-i18n="faq.a5">Absolutely. All our coaches are available for 1-on-1 sessions, bookable directly at reception or through your coach.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     NEWSLETTER
+     ============================================================ -->
+<section class="section-pad" style="padding-top:0">
+  <div class="container">
+    <div class="newsletter-box reveal">
+      <h3 data-i18n="news.title">Stay in the loop</h3>
+      <p data-i18n="news.body">Get new class schedules, offers and gym updates straight to your inbox — no spam, ever.</p>
+      <form class="newsletter-form" id="newsletter-form">
+        <label for="newsletter-email" class="sr-only" style="position:absolute;left:-9999px" data-i18n="news.emailLabel">Email address</label>
+        <input type="email" id="newsletter-email" required data-i18n-placeholder="news.placeholder" placeholder="Your email address">
+        <button class="btn" type="submit" data-i18n="news.cta">Subscribe</button>
+      </form>
+      <p class="newsletter-msg" id="newsletter-msg" data-i18n="news.success">Thank you — you're subscribed!</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+     ============================================================ -->
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+      <h2 class="section-title" data-i18n="contact.title">Come see it <em>for yourself.</em></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-map reveal reveal-delay-1">
+        <iframe src="https://www.google.com/maps?q=24%2F2+Azatutyan+Avenue,+Yerevan,+Armenia&output=embed" title="The ONE Gym location on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact-card reveal reveal-delay-2">
+        <div class="contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><h4 data-i18n="contact.addressLabel">Address</h4><p data-i18n="contact.address">24/2 Azatutyan Avenue, Yerevan, Armenia</p></div>
+        </div>
+        <div class="contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.5a2 2 0 0 1 2.1-.4c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2z"/></svg>
+          <div><h4 data-i18n="contact.phoneLabel">Phone</h4><p><a href="tel:+37441882880">+374 41 882880</a></p></div>
+        </div>
+        <div class="contact-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <div>
+            <h4 data-i18n="contact.hoursLabel">Business Hours</h4>
+            <p><span data-i18n="contact.weekdays">Monday – Friday</span>: 07:00 – 23:00</p>
+            <p><span data-i18n="contact.weekend">Saturday – Sunday</span>: 09:00 – 22:00</p>
+          </div>
+        </div>
+        <div class="contact-actions">
+          <a href="tel:+37441882880" class="btn btn-primary" data-i18n="contact.callBtn">Call Us</a>
+          <a href="https://wa.me/37441882880" class="btn btn-outline" target="_blank" rel="noopener" data-i18n="contact.waBtn">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand" style="color:var(--c-text)">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" width="38" height="38">
+            <circle cx="50" cy="50" r="34" stroke="currentColor" stroke-width="8"/>
+            <line x1="21" y1="71" x2="79" y2="29" stroke="#c81e3a" stroke-width="9" stroke-linecap="round"/>
+          </svg>
+          THE <b style="color:var(--c-crimson)">ONE</b>&nbsp;GYM
+        </a>
+        <p data-i18n="footer.desc">Yerevan's premium fitness destination — modern equipment, elite coaching and a space built for real results.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 4h-2a4 4 0 0 0-4 4v3H7v4h2v7h4v-7h2.5l.5-4h-3V8a1 1 0 0 1 1-1h2z"/></svg></a>
+          <a href="#" aria-label="Yandex Maps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a>
+          <a href="#" aria-label="Google Maps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 20l-6-3V4l6 3m0 13l6-3m-6 3V7m6 10l6 3V6l-6-3m0 14V4"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+        <ul>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+          <li><a href="#plans" data-i18n="nav.plans">Membership Plans</a></li>
+          <li><a href="#coaches" data-i18n="nav.coaches">Coaches</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <address>
+          <span data-i18n="contact.address">24/2 Azatutyan Avenue, Yerevan, Armenia</span><br><br>
+          <a href="tel:+37441882880">+374 41 882880</a><br>
+          <a href="mailto:info@theonegym.am">info@theonegym.am</a>
+        </address>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.language">Language</h4>
+        <ul>
+          <li><button data-lang="hy" style="color:var(--c-text-dim)">Հայերեն</button></li>
+          <li><button data-lang="ru" style="color:var(--c-text-dim)">Русский</button></li>
+          <li><button data-lang="en" style="color:var(--c-text-dim)">English</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="footer-year">2026</span> The ONE Gym. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <div class="links">
+        <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="#" data-i18n="footer.terms">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<!-- ============================================================
+     FLOATING ELEMENTS
+     ============================================================ -->
+<div class="floating-stack">
+  <button class="fab fab-top" id="fab-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+  <a href="https://wa.me/37441882880" class="fab fab-wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-6c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1s-.6.8-.8 1-.3.2-.6.1a6.6 6.6 0 0 1-1.9-1.2 7.2 7.2 0 0 1-1.3-1.6c-.1-.2 0-.4.1-.5s.2-.3.4-.4a1.6 1.6 0 0 0 .2-.4.4.4 0 0 0 0-.4c-.1-.1-.5-1.3-.7-1.8s-.4-.4-.5-.4h-.5a.9.9 0 0 0-.6.3 2.7 2.7 0 0 0-.8 2 4.7 4.7 0 0 0 1 2.5 10.6 10.6 0 0 0 4.1 3.6c.6.2 1 .4 1.4.5a3.3 3.3 0 0 0 1.5.1 2.5 2.5 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c-.1-.1-.2-.2-.5-.3z"/></svg>
+  </a>
+  <a href="tel:+37441882880" class="fab fab-call" aria-label="Call The ONE Gym">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.5a2 2 0 0 1 2.1-.4c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2z"/></svg>
+  </a>
+</div>
+
+<div class="sticky-cta" id="sticky-cta">
+  <p data-i18n="stickyCta.text">Ready to train at The ONE Gym?</p>
+  <a href="#plans" class="btn btn-primary btn-sm" data-i18n="hero.ctaJoin">Become a Member</a>
+</div>
+
+<div id="cookie-banner">
+  <p data-i18n="cookie.text">We use cookies to improve your experience on our site. By continuing to browse, you agree to our use of cookies.</p>
+  <div class="row">
+    <button class="btn btn-primary btn-sm" id="cookie-accept" data-i18n="cookie.accept">Accept</button>
+    <button class="btn btn-outline btn-sm" id="cookie-decline" data-i18n="cookie.decline">Decline</button>
+  </div>
+</div>
+
+<script>
+/* ============================================================
+   THE ONE GYM — App Script
+   ============================================================ */
+(function(){
+"use strict";
+
+/* ---------- Safe storage helper (falls back to memory if
+   localStorage is unavailable, e.g. inside a sandboxed preview) ---------- */
+var memoryStore = {};
+var storage = {
+  get:function(k){ try{ var v=window.localStorage.getItem(k); return v===null?undefined:v; }catch(e){ return memoryStore[k]; } },
+  set:function(k,v){ try{ window.localStorage.setItem(k,v); }catch(e){ memoryStore[k]=v; } }
+};
+
+/* ---------- Translations ---------- */
+var translations = {
+en: {
+  meta:{ title:"The ONE Gym — Premium Fitness Club in Yerevan" },
+  nav:{ home:"Home", about:"About", zones:"Zones", generalGym:"General Gym", womenGym:"Women Only Gym", fitnessBar:"Fitness Bar",
+    plans:"Membership Plans", coaches:"Coaches", schedule:"Coach Schedule", gallery:"Gallery", contact:"Contact", join:"Become a Member" },
+  hero:{ eyebrow:"Premium Fitness Club · Yerevan", headline:"ONE GYM. ONE STANDARD. <em>NO LIMITS.</em>",
+    sub:"Premium training, elite coaching and a private fitness bar — all under one roof in the heart of Yerevan.",
+    ctaJoin:"Become a Member", ctaPlans:"View Membership Plans",
+    statMembers:"Members", statCoaches:"Professional Coaches", statZones:"Training Zones", statYears:"Years of Experience" },
+  about:{ badgeYears:"Years shaping<br>Yerevan's fitness scene", eyebrow:"About The ONE Gym",
+    title:"Built for people who take training <em>seriously.</em>",
+    body:"The ONE Gym is Yerevan's premium training destination, built around one idea: excellence without compromise. Every machine, every plate and every corner of our space is chosen for performance and comfort. Our coaching staff trains with genuine care, our environment stays immaculate, and every member gets a space engineered for their goals.",
+    point1:"Latest professional equipment, maintained to a five-star standard",
+    point2:"A clean, meticulously kept environment, always",
+    point3:"A friendly, welcoming atmosphere for every level",
+    point4:"Professional coaching staff invested in your progress",
+    cta:"Discover The ONE Gym" },
+  why:{ eyebrow:"Why Choose Us", title:"Seven reasons members <em>never leave.</em>",
+    item1Title:"Latest Equipment", item1Body:"Precision machines and free weights, upgraded every season.",
+    item2Title:"Professional Coaches", item2Body:"Certified specialists who plan every rep around your goal.",
+    item3Title:"Women Only Area", item3Body:"A private, fully equipped studio reserved for women.",
+    item4Title:"Fitness Bar", item4Body:"Fresh shakes and nutrition support right on the floor.",
+    item5Title:"Clean Environment", item5Body:"Hospital-grade cleaning routines, all day, every day.",
+    item6Title:"Comfortable Atmosphere", item6Body:"Climate control, natural light and curated sound design.",
+    item7Title:"Convenient Location", item7Body:"On Azatutyan Avenue, with easy parking and access.",
+    ctaTitle:"Ready to start?", ctaBtn:"See Plans" },
+  zones:{ eyebrow:"Training Zones", title:"Three spaces. <em>One membership.</em>",
+    lede:"Every zone is purpose-built — from heavy strength training to a private studio to full nutrition support.",
+    generalTag:"01 · Strength", generalTitle:"General Gym",
+    generalBody:"A full-scale strength and cardio floor with premium free weights, machines and functional rigs for every training style.",
+    generalF1:"Free Weights", generalF2:"Cardio Deck", generalF3:"Functional Rig",
+    womenTag:"02 · Private", womenTitle:"Women Only Gym",
+    womenBody:"A private, fully-equipped studio reserved exclusively for women — comfortable, secure and led by female coaches.",
+    womenF1:"Private Studio", womenF2:"Female Coaches", womenF3:"Pilates & Mobility",
+    barTag:"03 · Nutrition", barTitle:"Fitness Bar",
+    barBody:"Fresh protein shakes, cold-pressed juice and nutrition guidance from our team — fuel your session, right on the floor.",
+    barF1:"Protein Shakes", barF2:"Fresh Juice", barF3:"Nutrition Advice" },
+  plans:{ eyebrow:"Membership Plans", title:"Pick your <em>commitment.</em>",
+    lede:"Every plan includes full access to the General Gym, Women Only studio and Fitness Bar discounts.",
+    monthlyName:"Monthly", perMonth:"per month", threeName:"3 Months", perThree:"22,000 / month",
+    sixName:"6 Months", perSix:"20,000 / month", twelveName:"12 Months", perTwelve:"17,000 / month",
+    popular:"Most Popular",
+    f1:"Full gym access", f2:"Locker & shower", f3:"Free fitness assessment", f4:"2 group classes / week",
+    f5:"Unlimited group classes", f6:"10% Fitness Bar discount", f7:"1 free PT session / month",
+    f8:"15% Fitness Bar discount", f9:"2 free PT sessions / month", cta:"Join Now" },
+  coaches:{ eyebrow:"Coaches", title:"Trained by <em>people who care.</em>", expLabel:"Experience:", readMore:"Read Profile",
+    c1Role:"Strength & Conditioning", c1Exp:"10 years",
+    c1Bio:"Former competitive powerlifter turned coach. Armen builds strength programs that are safe, structured and genuinely effective for every level.",
+    c2Role:"Women's Fitness & Pilates", c2Exp:"7 years",
+    c2Bio:"Anahit leads the Women Only studio with a calm, encouraging style — blending strength, Pilates and mobility for lasting results.",
+    c3Role:"Functional & Conditioning", c3Exp:"8 years",
+    c3Bio:"High-energy functional training and conditioning. Davit designs sessions that push conditioning without sacrificing form.",
+    c4Role:"Nutrition & Weight Management", c4Exp:"6 years",
+    c4Bio:"Mariam pairs training plans with practical nutrition guidance, helping members build habits that actually stick." },
+  schedule:{ eyebrow:"Coach Schedule", title:"Weekly <em>availability.</em>",
+    lede:"Book a session directly on the floor, or reserve a slot ahead of time at reception.",
+    coach:"Coach", mon:"Mon", tue:"Tue", wed:"Wed", thu:"Thu", fri:"Fri", sat:"Sat", sun:"Sun",
+    off:"Off", appt:"By appt.", weekdays:"Mon–Fri", weekend:"Sat–Sun", monWedFri:"Mon / Wed / Fri", otherDays:"Other days" },
+  gallery:{ eyebrow:"Gallery", title:"Inside <em>The ONE Gym.</em>",
+    c1:"Strength Zone", c2:"Women's Studio", c3:"Fitness Bar", c4:"The Floor", c5:"Free Weights",
+    c6:"Personal Training", c7:"Studio Session", c8:"Fresh & Fuelled", c9:"Precision Equipment", c10:"The Space" },
+  testi:{ eyebrow:"Testimonials", title:"What our <em>members say.</em>",
+    q1:"The ONE Gym changed how I train. The coaches actually watch your form, the equipment is always available, and the whole place just feels premium.",
+    q2:"The Women Only studio is exactly what I needed — private, calm and led by a coach who genuinely listens. I finally look forward to training.",
+    q3:"Twelve months in and I've never once felt like just a number. The fitness bar after a heavy session is a small thing that makes a big difference.",
+    member1:"Member since 2023", member2:"Member since 2024", member3:"Member since 2022" },
+  faq:{ eyebrow:"FAQ", title:"Common <em>questions.</em>",
+    q1:"Do you offer a trial session?", a1:"Yes — first-time visitors can book a free guided trial session and facility tour before committing to a plan.",
+    q2:"What are your working hours?", a2:"We're open Monday–Friday from 07:00 to 23:00, and Saturday–Sunday from 09:00 to 22:00.",
+    q3:"Is the Women Only area really private?", a3:"Yes, it's a fully separate studio with its own entrance and equipment, accessible only to women members and female coaches.",
+    q4:"Can I freeze my membership?", a4:"Yes, memberships of 3 months or longer can be frozen once for up to 14 days per period at no extra cost.",
+    q5:"Do you offer personal training?", a5:"Absolutely. All our coaches are available for 1-on-1 sessions, bookable directly at reception or through your coach." },
+  news:{ title:"Stay in the loop", body:"Get new class schedules, offers and gym updates straight to your inbox — no spam, ever.",
+    emailLabel:"Email address", placeholder:"Your email address", cta:"Subscribe", success:"Thank you — you're subscribed!" },
+  contact:{ eyebrow:"Contact", title:"Come see it <em>for yourself.</em>",
+    addressLabel:"Address", address:"24/2 Azatutyan Avenue, Yerevan, Armenia", phoneLabel:"Phone", hoursLabel:"Business Hours",
+    weekdays:"Monday – Friday", weekend:"Saturday – Sunday", callBtn:"Call Us", waBtn:"WhatsApp" },
+  footer:{ desc:"Yerevan's premium fitness destination — modern equipment, elite coaching and a space built for real results.",
+    quickLinks:"Quick Links", contact:"Contact", language:"Language", rights:"All rights reserved.",
+    privacy:"Privacy Policy", terms:"Terms of Service" },
+  stickyCta:{ text:"Ready to train at The ONE Gym?" },
+  cookie:{ text:"We use cookies to improve your experience on our site. By continuing to browse, you agree to our use of cookies.", accept:"Accept", decline:"Decline" }
+},
+ru: {
+  meta:{ title:"The ONE Gym — Премиальный Фитнес-клуб в Ереване" },
+  nav:{ home:"Главная", about:"О нас", zones:"Зоны", generalGym:"Основной зал", womenGym:"Только для женщин", fitnessBar:"Фитнес-бар",
+    plans:"Абонементы", coaches:"Тренеры", schedule:"Расписание тренеров", gallery:"Галерея", contact:"Контакты", join:"Стать членом клуба" },
+  hero:{ eyebrow:"Премиальный фитнес-клуб · Ереван", headline:"ОДИН ЗАЛ. ОДИН СТАНДАРТ. <em>БЕЗ ГРАНИЦ.</em>",
+    sub:"Премиальные тренировки, элитные тренеры и собственный фитнес-бар — всё под одной крышей в самом центре Еревана.",
+    ctaJoin:"Стать членом клуба", ctaPlans:"Посмотреть тарифы",
+    statMembers:"Участников", statCoaches:"Профессиональных тренеров", statZones:"Тренировочных зон", statYears:"Лет опыта" },
+  about:{ badgeYears:"лет формируем<br>фитнес-культуру Еревана", eyebrow:"О The ONE Gym",
+    title:"Создан для тех, кто <em>серьёзно</em> относится к тренировкам.",
+    body:"The ONE Gym — премиальное тренировочное пространство в Ереване, построенное вокруг одной идеи: совершенство без компромиссов. Каждый тренажёр, каждый блин и каждый уголок зала выбраны ради результата и комфорта. Наши тренеры работают с искренней заботой, атмосфера остаётся безупречно чистой, а каждый участник получает пространство, созданное под его цели.",
+    point1:"Новейшее профессиональное оборудование, обслуживаемое по высочайшим стандартам",
+    point2:"Чистая, безупречно ухоженная атмосфера — всегда",
+    point3:"Дружелюбная, гостеприимная атмосфера для любого уровня подготовки",
+    point4:"Профессиональные тренеры, искренне заинтересованные в вашем прогрессе",
+    cta:"Узнать больше о The ONE Gym" },
+  why:{ eyebrow:"Почему Именно Мы", title:"Семь причин, по которым участники <em>никогда не уходят.</em>",
+    item1Title:"Новейшее оборудование", item1Body:"Точные тренажёры и свободные веса — обновляются каждый сезон.",
+    item2Title:"Профессиональные тренеры", item2Body:"Сертифицированные специалисты, которые планируют каждое повторение под вашу цель.",
+    item3Title:"Зона только для женщин", item3Body:"Приватная, полностью оборудованная студия только для женщин.",
+    item4Title:"Фитнес-бар", item4Body:"Свежие коктейли и консультации по питанию прямо в зале.",
+    item5Title:"Чистота", item5Body:"Уборка по больничным стандартам — весь день, каждый день.",
+    item6Title:"Комфортная атмосфера", item6Body:"Климат-контроль, естественное освещение и продуманное звуковое сопровождение.",
+    item7Title:"Удобное расположение", item7Body:"На проспекте Азатутян, с удобной парковкой и подъездом.",
+    ctaTitle:"Готовы начать?", ctaBtn:"Смотреть тарифы" },
+  zones:{ eyebrow:"Тренировочные зоны", title:"Три пространства. <em>Один абонемент.</em>",
+    lede:"Каждая зона создана с особой целью — от силовых тренировок до приватной студии и полноценной поддержки по питанию.",
+    generalTag:"01 · Сила", generalTitle:"Основной зал",
+    generalBody:"Полноценный силовой и кардио-зал с премиальными свободными весами, тренажёрами и функциональными стойками для любого стиля тренировок.",
+    generalF1:"Свободные веса", generalF2:"Кардио-зона", generalF3:"Функциональная стойка",
+    womenTag:"02 · Приватно", womenTitle:"Зал только для женщин",
+    womenBody:"Приватная, полностью оборудованная студия исключительно для женщин — комфортно, безопасно, под руководством женщин-тренеров.",
+    womenF1:"Приватная студия", womenF2:"Женщины-тренеры", womenF3:"Пилатес и мобильность",
+    barTag:"03 · Питание", barTitle:"Фитнес-бар",
+    barBody:"Свежие протеиновые коктейли, соки холодного отжима и консультации по питанию от нашей команды — заряжайтесь прямо в зале.",
+    barF1:"Протеиновые коктейли", barF2:"Свежие соки", barF3:"Консультации по питанию" },
+  plans:{ eyebrow:"Абонементы", title:"Выберите свой <em>уровень вовлечённости.</em>",
+    lede:"Каждый абонемент включает полный доступ к основному залу, женской студии и скидки в фитнес-баре.",
+    monthlyName:"Месячный", perMonth:"в месяц", threeName:"3 Месяца", perThree:"22 000 / месяц",
+    sixName:"6 Месяцев", perSix:"20 000 / месяц", twelveName:"12 Месяцев", perTwelve:"17 000 / месяц",
+    popular:"Самый популярный",
+    f1:"Полный доступ в зал", f2:"Шкафчик и душ", f3:"Бесплатная фитнес-оценка", f4:"2 групповых занятия / неделю",
+    f5:"Безлимитные групповые занятия", f6:"Скидка 10% в фитнес-баре", f7:"1 бесплатная тренировка с тренером / месяц",
+    f8:"Скидка 15% в фитнес-баре", f9:"2 бесплатные тренировки с тренером / месяц", cta:"Записаться" },
+  coaches:{ eyebrow:"Тренеры", title:"Тренируйтесь с теми, <em>кому не всё равно.</em>", expLabel:"Опыт:", readMore:"Читать профиль",
+    c1Role:"Силовая подготовка", c1Exp:"10 лет",
+    c1Bio:"Бывший соревновательный пауэрлифтер, ставший тренером. Армен создаёт силовые программы, которые безопасны, структурированы и по-настоящему эффективны для любого уровня.",
+    c2Role:"Женский фитнес и пилатес", c2Exp:"7 лет",
+    c2Bio:"Анаит руководит женской студией в спокойной, вдохновляющей манере, сочетая силовые тренировки, пилатес и мобильность для долгосрочных результатов.",
+    c3Role:"Функциональный тренинг", c3Exp:"8 лет",
+    c3Bio:"Энергичные функциональные тренировки. Давит выстраивает занятия, которые развивают выносливость без потери техники.",
+    c4Role:"Питание и контроль веса", c4Exp:"6 лет",
+    c4Bio:"Мариам сочетает тренировочные планы с практичными рекомендациями по питанию, помогая участникам формировать привычки, которые действительно закрепляются." },
+  schedule:{ eyebrow:"Расписание тренеров", title:"Еженедельная <em>доступность.</em>",
+    lede:"Запишитесь на тренировку прямо в зале или забронируйте время заранее на ресепшене.",
+    coach:"Тренер", mon:"Пн", tue:"Вт", wed:"Ср", thu:"Чт", fri:"Пт", sat:"Сб", sun:"Вс",
+    off:"Выходной", appt:"По записи", weekdays:"Пн–Пт", weekend:"Сб–Вс", monWedFri:"Пн / Ср / Пт", otherDays:"Остальные дни" },
+  gallery:{ eyebrow:"Галерея", title:"Внутри <em>The ONE Gym.</em>",
+    c1:"Силовая зона", c2:"Женская студия", c3:"Фитнес-бар", c4:"Тренировочный зал", c5:"Свободные веса",
+    c6:"Персональные тренировки", c7:"Занятие в студии", c8:"Свежо и заряжает", c9:"Точное оборудование", c10:"Пространство" },
+  testi:{ eyebrow:"Отзывы", title:"Что говорят <em>наши участники.</em>",
+    q1:"The ONE Gym изменил моё отношение к тренировкам. Тренеры действительно следят за техникой, оборудование всегда свободно, а атмосфера ощущается по-настоящему премиальной.",
+    q2:"Женская студия — именно то, что мне было нужно: приватно, спокойно, и тренер действительно слушает. Я наконец-то с нетерпением жду тренировок.",
+    q3:"Уже двенадцать месяцев, и я ни разу не почувствовал себя просто «номером». Фитнес-бар после тяжёлой тренировки — небольшая деталь, которая меняет многое.",
+    member1:"Участник с 2023", member2:"Участник с 2024", member3:"Участник с 2022" },
+  faq:{ eyebrow:"Часто задаваемые вопросы", title:"Частые <em>вопросы.</em>",
+    q1:"Есть ли пробное занятие?", a1:"Да — новые посетители могут записаться на бесплатное пробное занятие с гидом и экскурсию по залу перед покупкой абонемента.",
+    q2:"Какой у вас график работы?", a2:"Мы работаем с понедельника по пятницу с 07:00 до 23:00, и в субботу-воскресенье с 09:00 до 22:00.",
+    q3:"Женская зона действительно приватна?", a3:"Да, это полностью отдельная студия со своим входом и оборудованием, доступная только для женщин-участниц и женщин-тренеров.",
+    q4:"Могу ли я заморозить абонемент?", a4:"Да, абонементы на 3 месяца и дольше можно заморозить один раз на срок до 14 дней без дополнительной платы.",
+    q5:"Есть ли у вас персональные тренировки?", a5:"Конечно. Все наши тренеры доступны для индивидуальных занятий — запись через ресепшен или напрямую у тренера." },
+  news:{ title:"Будьте в курсе", body:"Получайте новые расписания занятий, акции и новости зала прямо на почту — никакого спама.",
+    emailLabel:"Электронная почта", placeholder:"Ваш email", cta:"Подписаться", success:"Спасибо — вы подписаны!" },
+  contact:{ eyebrow:"Контакты", title:"Приходите и <em>убедитесь сами.</em>",
+    addressLabel:"Адрес", address:"просп. Азатутян 24/2, Ереван, Армения", phoneLabel:"Телефон", hoursLabel:"Часы работы",
+    weekdays:"Понедельник – Пятница", weekend:"Суббота – Воскресенье", callBtn:"Позвонить", waBtn:"WhatsApp" },
+  footer:{ desc:"Премиальное фитнес-пространство Еревана — современное оборудование, элитные тренеры и зал, созданный для реальных результатов.",
+    quickLinks:"Быстрые ссылки", contact:"Контакты", language:"Язык", rights:"Все права защищены.",
+    privacy:"Политика конфиденциальности", terms:"Условия использования" },
+  stickyCta:{ text:"Готовы тренироваться в The ONE Gym?" },
+  cookie:{ text:"Мы используем файлы cookie, чтобы улучшить работу сайта. Продолжая пользоваться сайтом, вы соглашаетесь с их использованием.", accept:"Принять", decline:"Отклонить" }
+},
+hy: {
+  meta:{ title:"The ONE Gym — Պրեմիում Ֆիթնես Ակումբ Երևանում" },
+  nav:{ home:"Գլխավոր", about:"Մեր մասին", zones:"Գոտիներ", generalGym:"Ընդհանուր Զալ", womenGym:"Միայն Կանանց Համար", fitnessBar:"Ֆիթնես Բար",
+    plans:"Անդամակցություն", coaches:"Մարզիչներ", schedule:"Մարզիչների Ժամանակացույց", gallery:"Պատկերասրահ", contact:"Կապ", join:"Դառնալ Անդամ" },
+  hero:{ eyebrow:"Պրեմիում Ֆիթնես Ակումբ · Երևան", headline:"ՄԵԿ ԱԿՈՒՄԲ. ՄԵԿ ՉԱՓԱՆԻՇ. <em>ԱՌԱՆՑ ՍԱՀՄԱՆՆԵՐԻ.</em>",
+    sub:"Պրեմիում մարզումներ, էլիտար մարզիչներ և սեփական ֆիթնես-բար՝ ամեն ինչ մեկ տանիքի տակ՝ Երևանի սրտում։",
+    ctaJoin:"Դառնալ Անդամ", ctaPlans:"Դիտել Փաթեթները",
+    statMembers:"Անդամներ", statCoaches:"Պրոֆեսիոնալ Մարզիչներ", statZones:"Մարզման Գոտիներ", statYears:"Տարվա Փորձ" },
+  about:{ badgeYears:"տարի ձևավորում ենք<br>Երևանի ֆիթնես մշակույթը", eyebrow:"The ONE Gym-ի Մասին",
+    title:"Ստեղծված է նրանց համար, ովքեր մարզումներին վերաբերվում են <em>լրջորեն։</em>",
+    body:"The ONE Gym-ը Երևանի պրեմիում մարզման կենտրոնն է՝ կառուցված մեկ գաղափարի շուրջ՝ գերազանցություն՝ առանց փոխզիջումների։ Յուրաքանչյուր սարք, յուրաքանչյուր կշիռ և տարածության յուրաքանչյուր անկյուն ընտրված է արդյունավետության ու հարմարավետության համար։ Մեր մարզիչներն աշխատում են անկեղծ հոգատարությամբ, միջավայրը միշտ անթերի մաքուր է, և յուրաքանչյուր անդամ ստանում է տարածք՝ ստեղծված հատուկ իր նպատակների համար։",
+    point1:"Վերջին սերնդի պրոֆեսիոնալ սարքավորումներ՝ պահպանվող բարձրագույն չափանիշով",
+    point2:"Մաքուր և բծախնդրորեն խնամված միջավայր՝ միշտ",
+    point3:"Ընկերասեր և հյուրընկալ մթնոլորտ՝ ցանկացած մակարդակի համար",
+    point4:"Պրոֆեսիոնալ մարզիչներ, ովքեր անկեղծորեն հետաքրքրված են ձեր առաջընթացով",
+    cta:"Բացահայտել The ONE Gym-ը" },
+  why:{ eyebrow:"Ինչու՞ Ընտրել Մեզ", title:"Յոթ պատճառ, թե ինչու անդամները <em>երբեք չեն հեռանում։</em>",
+    item1Title:"Վերջին Սերնդի Սարքավորումներ", item1Body:"Ճշգրիտ մարզասարքեր և ազատ քաշեր՝ թարմացվող ամեն սեզոն։",
+    item2Title:"Պրոֆեսիոնալ Մարզիչներ", item2Body:"Հավաստագրված մասնագետներ, ովքեր ամեն կրկնությունը պլանավորում են ձեր նպատակի շուրջ։",
+    item3Title:"Միայն Կանանց Գոտի", item3Body:"Մասնավոր, ամբողջությամբ սարքավորված ստուդիա՝ նախատեսված կանանց համար։",
+    item4Title:"Ֆիթնես Բար", item4Body:"Թարմ կոկտեյլներ և սննդակարգային աջակցություն՝ ուղիղ դահլիճում։",
+    item5Title:"Մաքուր Միջավայր", item5Body:"Հիվանդանոցային մակարդակի մաքրում՝ ամբողջ օրվա ընթացքում, ամեն օր։",
+    item6Title:"Հարմարավետ Մթնոլորտ", item6Body:"Կլիմա-վերահսկում, բնական լուսավորություն և յուրահատուկ ձայնային ձևավորում։",
+    item7Title:"Հարմար Տեղակայում", item7Body:"Ազատության պողոտայում՝ հարմար կայանատեղիով և մուտքով։",
+    ctaTitle:"Պատրա՞ստ եք սկսել։", ctaBtn:"Դիտել Փաթեթները" },
+  zones:{ eyebrow:"Մարզման Գոտիներ", title:"Երեք տարածք։ <em>Մեկ անդամակցություն։</em>",
+    lede:"Յուրաքանչյուր գոտի ստեղծված է հատուկ նպատակով՝ ուժային մարզումներից մինչև մասնավոր ստուդիա և սննդակարգային լիարժեք աջակցություն։",
+    generalTag:"01 · Ուժ", generalTitle:"Ընդհանուր Զալ",
+    generalBody:"Ամբողջական ուժային և կարդիո դահլիճ՝ պրեմիում ազատ քաշերով, մարզասարքերով և ֆունկցիոնալ կայանքներով՝ մարզման ցանկացած ոճի համար։",
+    generalF1:"Ազատ Քաշեր", generalF2:"Կարդիո Գոտի", generalF3:"Ֆունկցիոնալ Կայանք",
+    womenTag:"02 · Մասնավոր", womenTitle:"Միայն Կանանց Համար Զալ",
+    womenBody:"Մասնավոր, ամբողջությամբ սարքավորված ստուդիա՝ բացառապես կանանց համար՝ հարմարավետ, ապահով և ղեկավարվող կին մարզիչների կողմից։",
+    womenF1:"Մասնավոր Ստուդիա", womenF2:"Կին Մարզիչներ", womenF3:"Պիլատես և Ճկունություն",
+    barTag:"03 · Սնունդ", barTitle:"Ֆիթնես Բար",
+    barBody:"Թարմ սպիտակուցային կոկտեյլներ, սառը մամլման հյութեր և սննդակարգային խորհրդատվություն մեր թիմից՝ ուղիղ դահլիճում։",
+    barF1:"Սպիտակուցային Կոկտեյլներ", barF2:"Թարմ Հյութեր", barF3:"Սննդակարգային Խորհրդատվություն" },
+  plans:{ eyebrow:"Անդամակցության Փաթեթներ", title:"Ընտրեք ձեր <em>հանձնառությունը։</em>",
+    lede:"Յուրաքանչյուր փաթեթ ներառում է ամբողջական հասանելիություն Ընդհանուր Զալին, Կանանց Ստուդիային և զեղչեր Ֆիթնես Բարում։",
+    monthlyName:"Ամսական", perMonth:"ամսական", threeName:"3 Ամիս", perThree:"22,000 / ամիս",
+    sixName:"6 Ամիս", perSix:"20,000 / ամիս", twelveName:"12 Ամիս", perTwelve:"17,000 / ամիս",
+    popular:"Ամենահայտնի",
+    f1:"Զալի ամբողջական հասանելիություն", f2:"Պահարան և ցնցուղ", f3:"Անվճար ֆիթնես գնահատում", f4:"2 խմբակային պարապմունք / շաբաթ",
+    f5:"Անսահմանափակ խմբակային պարապմունքներ", f6:"10% զեղչ Ֆիթնես Բարում", f7:"1 անվճար անհատական մարզում / ամիս",
+    f8:"15% զեղչ Ֆիթնես Բարում", f9:"2 անվճար անհատական մարզում / ամիս", cta:"Միանալ Հիմա" },
+  coaches:{ eyebrow:"Մարզիչներ", title:"Մարզվեք նրանց հետ, <em>ովքեր հոգ են տանում։</em>", expLabel:"Փորձ՝", readMore:"Կարդալ Ավելին",
+    c1Role:"Ուժային Պատրաստվածություն", c1Exp:"10 տարի",
+    c1Bio:"Նախկին մրցութային փաուերլիֆթեր, ով դարձել է մարզիչ։ Արմենը կառուցում է ուժային ծրագրեր, որոնք անվտանգ են, կառուցվածքային և իսկապես արդյունավետ՝ ցանկացած մակարդակի համար։",
+    c2Role:"Կանանց Ֆիթնես և Պիլատես", c2Exp:"7 տարի",
+    c2Bio:"Անահիտը ղեկավարում է Կանանց Ստուդիան հանգիստ, խրախուսող ոճով՝ համադրելով ուժային մարզումներ, պիլատես և ճկունություն՝ կայուն արդյունքների համար։",
+    c3Role:"Ֆունկցիոնալ Մարզումներ", c3Exp:"8 տարի",
+    c3Bio:"Բարձր էներգիայով ֆունկցիոնալ մարզումներ։ Դավիթը կառուցում է պարապմունքներ, որոնք զարգացնում են տոկունությունը՝ առանց տեխնիկան զոհաբերելու։",
+    c4Role:"Սնունդ և Քաշի Կառավարում", c4Exp:"6 տարի",
+    c4Bio:"Մարիամը մարզման ծրագրերը զուգակցում է գործնական սննդակարգային խորհուրդների հետ՝ օգնելով անդամներին ձևավորել իսկապես կայուն սովորույթներ։" },
+  schedule:{ eyebrow:"Մարզիչների Ժամանակացույց", title:"Շաբաթական <em>հասանելիություն։</em>",
+    lede:"Գրանցվեք պարապմունքի ուղիղ դահլիճում կամ նախապես ամրագրեք ժամը ընդունարանում։",
+    coach:"Մարզիչ", mon:"Երկ", tue:"Երք", wed:"Չրք", thu:"Հնգ", fri:"Ուրբ", sat:"Շբթ", sun:"Կիր",
+    off:"Հանգիստ", appt:"Ըստ ամրագրման", weekdays:"Երկ–Ուրբ", weekend:"Շբթ–Կիր", monWedFri:"Երկ / Չրք / Ուրբ", otherDays:"Այլ օրեր" },
+  gallery:{ eyebrow:"Պատկերասրահ", title:"The ONE Gym-<em>ի ներսում։</em>",
+    c1:"Ուժային Գոտի", c2:"Կանանց Ստուդիա", c3:"Ֆիթնես Բար", c4:"Դահլիճը", c5:"Ազատ Քաշեր",
+    c6:"Անհատական Մարզումներ", c7:"Ստուդիայի Պարապմունք", c8:"Թարմ և Էներգիայով", c9:"Ճշգրիտ Սարքավորումներ", c10:"Տարածքը" },
+  testi:{ eyebrow:"Կարծիքներ", title:"Ինչ են ասում <em>մեր անդամները։</em>",
+    q1:"The ONE Gym-ը փոխեց իմ մարզվելու ձևը։ Մարզիչներն իրականում հետևում են տեխնիկային, սարքավորումները միշտ հասանելի են, և ամբողջ վայրը զգացվում է իսկապես պրեմիում։",
+    q2:"Կանանց Ստուդիան հենց այն էր, ինչ ինձ պետք էր՝ մասնավոր, հանգիստ, և մարզիչը իսկապես լսում է։ Վերջապես անհամբեր սպասում եմ մարզումներին։",
+    q3:"Տասներկու ամիս է անցել, և ես երբեք չեմ զգացել ինձ պարզապես համար։ Ֆիթնես Բարը ծանր պարապմունքից հետո փոքր բան է, բայց մեծ տարբերություն է ստեղծում։",
+    member1:"Անդամ 2023 թվականից", member2:"Անդամ 2024 թվականից", member3:"Անդամ 2022 թվականից" },
+  faq:{ eyebrow:"Հաճախակի Տրվող Հարցեր", title:"Հաճախակի <em>հարցեր։</em>",
+    q1:"Առաջարկո՞ւմ եք փորձնական պարապմունք։", a1:"Այո՝ առաջին անգամ այցելուները կարող են գրանցվել անվճար ուղեկցվող փորձնական պարապմունքի և ծանոթանալ ակումբին՝ նախքան փաթեթ ձեռք բերելը։",
+    q2:"Ի՞նչ են ձեր աշխատանքային ժամերը։", a2:"Մենք աշխատում ենք երկուշաբթիից ուրբաթ՝ 07:00-23:00, իսկ շաբաթ-կիրակի՝ 09:00-22:00։",
+    q3:"Կանանց գոտին իսկապե՞ս մասնավոր է։", a3:"Այո, դա ամբողջովին առանձին ստուդիա է՝ իր մուտքով և սարքավորումներով, հասանելի միայն կին անդամներին և կին մարզիչներին։",
+    q4:"Կարո՞ղ եմ սառեցնել իմ անդամակցությունը։", a4:"Այո, 3 ամսից ավելի տևողությամբ փաթեթները կարող են սառեցվել մեկ անգամ՝ մինչև 14 օր ժամկետով, առանց լրացուցիչ վճարի։",
+    q5:"Առաջարկո՞ւմ եք անհատական մարզումներ։", a5:"Իհարկե։ Մեր բոլոր մարզիչները հասանելի են անհատական պարապմունքների համար՝ գրանցվելով ընդունարանում կամ ուղղակիորեն ձեր մարզչի մոտ։" },
+  news:{ title:"Եղեք Տեղեկացված", body:"Ստացեք նոր պարապմունքների ժամանակացույցեր, առաջարկներ և ակումբի նորություններ ուղիղ ձեր փոստին՝ առանց սպամի։",
+    emailLabel:"Էլ. հասցե", placeholder:"Ձեր էլ. հասցեն", cta:"Բաժանորդագրվել", success:"Շնորհակալություն՝ դուք բաժանորդագրվեցիք։" },
+  contact:{ eyebrow:"Կապ", title:"Եկեք և <em>ինքներդ տեսեք։</em>",
+    addressLabel:"Հասցե", address:"Ազատության պողոտա 24/2, Երևան, Հայաստան", phoneLabel:"Հեռախոս", hoursLabel:"Աշխատանքային Ժամեր",
+    weekdays:"Երկուշաբթի – Ուրբաթ", weekend:"Շաբաթ – Կիրակի", callBtn:"Զանգահարել", waBtn:"WhatsApp" },
+  footer:{ desc:"Երևանի պրեմիում ֆիթնես կենտրոնը՝ ժամանակակից սարքավորումներ, էլիտար մարզիչներ և տարածք՝ ստեղծված իրական արդյունքների համար։",
+    quickLinks:"Արագ Հղումներ", contact:"Կապ", language:"Լեզու", rights:"Բոլոր իրավունքները պաշտպանված են։",
+    privacy:"Գաղտնիության Քաղաքականություն", terms:"Օգտագործման Պայմաններ" },
+  stickyCta:{ text:"Պատրա՞ստ եք մարզվել The ONE Gym-ում։" },
+  cookie:{ text:"Մենք օգտագործում ենք cookie ֆայլեր՝ կայքի աշխատանքը բարելավելու համար։ Շարունակելով դիտարկումը՝ դուք համաձայնվում եք դրանց օգտագործմանը։", accept:"Ընդունել", decline:"Մերժել" }
+}
+};
+
+/* ---------- Language ---------- */
+var htmlEl = document.documentElement;
+var currentLang = storage.get('one-gym-lang') || 'hy';
+
+function applyLanguage(lang){
+  if(!translations[lang]) lang = 'hy';
+  currentLang = lang;
+  htmlEl.setAttribute('lang', lang);
+  document.title = translations[lang].meta.title;
+  storage.set('one-gym-lang', lang);
+
+  document.querySelectorAll('[data-i18n]').forEach(function(el){
+    var path = el.getAttribute('data-i18n').split('.');
+    var val = translations[lang];
+    for(var i=0;i<path.length;i++){ val = val ? val[path[i]] : undefined; }
+    if(typeof val === 'string'){ el.innerHTML = val; }
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el){
+    var path = el.getAttribute('data-i18n-placeholder').split('.');
+    var val = translations[lang];
+    for(var i=0;i<path.length;i++){ val = val ? val[path[i]] : undefined; }
+    if(typeof val === 'string'){ el.setAttribute('placeholder', val); }
+  });
+  document.querySelectorAll('.lang-switch button').forEach(function(btn){
+    btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+  });
+}
+
+document.querySelectorAll('[data-lang]').forEach(function(btn){
+  btn.addEventListener('click', function(){ applyLanguage(btn.getAttribute('data-lang')); });
+});
+
+/* ---------- Theme ---------- */
+var savedTheme = storage.get('one-gym-theme');
+if(!savedTheme){ savedTheme = 'dark'; } /* dark is the default per brief */
+htmlEl.setAttribute('data-theme', savedTheme);
+
+document.getElementById('theme-toggle').addEventListener('click', function(){
+  var next = htmlEl.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  htmlEl.setAttribute('data-theme', next);
+  storage.set('one-gym-theme', next);
+});
+
+/* ---------- Loading screen ---------- */
+window.addEventListener('load', function(){
+  var ls = document.getElementById('loading-screen');
+  setTimeout(function(){ ls.classList.add('hidden'); }, 350);
+});
+
+/* ---------- Scroll progress + navbar state + back-to-top + sticky cta ---------- */
+var navbar = document.getElementById('navbar');
+var progressBar = document.getElementById('scroll-progress');
+var fabTop = document.getElementById('fab-top');
+var stickyCta = document.getElementById('sticky-cta');
+var heroEl = document.getElementById('hero');
+
+function onScroll(){
+  var scrollTop = window.scrollY || document.documentElement.scrollTop;
+  var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  var pct = docHeight > 0 ? (scrollTop/docHeight)*100 : 0;
+  progressBar.style.width = pct + '%';
+
+  navbar.classList.toggle('scrolled', scrollTop > 40);
+  fabTop.classList.toggle('show', scrollTop > 600);
+
+  if(heroEl){
+    var heroBottom = heroEl.getBoundingClientRect().bottom;
+    stickyCta.classList.toggle('show', heroBottom < 0 && scrollTop > 600);
+  }
+}
+document.addEventListener('scroll', onScroll, {passive:true});
+onScroll();
+
+fabTop.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+
+/* ---------- Mobile nav ---------- */
+var burger = document.getElementById('burger');
+var navLinks = document.getElementById('nav-links');
+var navScrim = document.getElementById('nav-scrim');
+function closeMobileNav(){
+  burger.classList.remove('active'); burger.setAttribute('aria-expanded','false');
+  navLinks.classList.remove('open'); navScrim.classList.remove('open');
+  document.body.style.overflow = '';
+}
+burger.addEventListener('click', function(){
+  var open = navLinks.classList.toggle('open');
+  navScrim.classList.toggle('open', open);
+  burger.classList.toggle('active', open);
+  burger.setAttribute('aria-expanded', open);
+  document.body.style.overflow = open ? 'hidden' : '';
+});
+navScrim.addEventListener('click', closeMobileNav);
+navLinks.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', closeMobileNav); });
+
+/* Zones dropdown (desktop hover handled by CSS; this handles mobile tap + a11y) */
+var zonesDrop = document.getElementById('zones-drop');
+var zonesBtn = document.getElementById('zones-drop-btn');
+zonesBtn.addEventListener('click', function(e){
+  e.preventDefault();
+  var isOpen = zonesDrop.classList.toggle('open');
+  zonesBtn.setAttribute('aria-expanded', isOpen);
+});
+document.addEventListener('click', function(e){
+  if(!zonesDrop.contains(e.target)){ zonesDrop.classList.remove('open'); zonesBtn.setAttribute('aria-expanded','false'); }
+});
+
+/* Smooth scroll with sticky-header offset */
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click', function(e){
+    var id = a.getAttribute('href');
+    if(id.length < 2) return;
+    var target = document.querySelector(id);
+    if(!target) return;
+    e.preventDefault();
+    var offset = (window.innerWidth < 1080 ? 72 : 84) + 14;
+    var top = target.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({top:top, behavior:'smooth'});
+  });
+});
+
+/* ---------- Reveal on scroll ---------- */
+var revealObserver = new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if(entry.isIntersecting){ entry.target.classList.add('is-visible'); revealObserver.unobserve(entry.target); }
+  });
+}, {threshold:0.12, rootMargin:'0px 0px -60px 0px'});
+document.querySelectorAll('.reveal').forEach(function(el){ revealObserver.observe(el); });
+
+/* ---------- Counters ---------- */
+function animateCounter(el){
+  var target = parseInt(el.getAttribute('data-target'), 10) || 0;
+  var duration = 1600;
+  var startTime = null;
+  function step(ts){
+    if(!startTime) startTime = ts;
+    var progress = Math.min((ts - startTime) / duration, 1);
+    var eased = 1 - Math.pow(1 - progress, 3);
+    el.textContent = Math.floor(eased * target).toLocaleString();
+    if(progress < 1){ requestAnimationFrame(step); } else { el.textContent = target.toLocaleString(); }
+  }
+  requestAnimationFrame(step);
+}
+var countersDone = false;
+var countersObserver = new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if(entry.isIntersecting && !countersDone){
+      countersDone = true;
+      document.querySelectorAll('.counter').forEach(animateCounter);
+      countersObserver.disconnect();
+    }
+  });
+}, {threshold:0.4});
+var heroStats = document.querySelector('.hero-stats');
+if(heroStats) countersObserver.observe(heroStats);
+
+/* ---------- Coach expand ---------- */
+document.querySelectorAll('[data-coach] .coach-toggle').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    btn.closest('[data-coach]').classList.toggle('expanded');
+  });
+});
+
+/* ---------- FAQ accordion ---------- */
+document.querySelectorAll('.faq-item').forEach(function(item){
+  var q = item.querySelector('.faq-q');
+  var a = item.querySelector('.faq-a');
+  q.addEventListener('click', function(){
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(function(other){
+      if(other !== item){ other.classList.remove('open'); other.querySelector('.faq-a').style.maxHeight = null; }
+    });
+    item.classList.toggle('open', !isOpen);
+    a.style.maxHeight = !isOpen ? (a.scrollHeight + 'px') : null;
+  });
+});
+
+/* ---------- Testimonials slider ---------- */
+var testiSlides = document.getElementById('testi-slides');
+var testiDots = document.querySelectorAll('#testi-dots button');
+var testiIndex = 0;
+var testiTotal = testiDots.length;
+function goToTesti(i){
+  testiIndex = (i + testiTotal) % testiTotal;
+  testiSlides.style.transform = 'translateX(-' + (testiIndex*100) + '%)';
+  testiDots.forEach(function(d,idx){ d.classList.toggle('active', idx === testiIndex); });
+}
+testiDots.forEach(function(dot,idx){ dot.addEventListener('click', function(){ goToTesti(idx); resetTestiAuto(); }); });
+var testiAuto = setInterval(function(){ goToTesti(testiIndex+1); }, 6000);
+function resetTestiAuto(){ clearInterval(testiAuto); testiAuto = setInterval(function(){ goToTesti(testiIndex+1); }, 6000); }
+
+/* ---------- Gallery lightbox ---------- */
+var galleryItems = Array.prototype.slice.call(document.querySelectorAll('.gallery-item'));
+var lightbox = document.getElementById('lightbox');
+var lbImg = document.getElementById('lb-img');
+var lbCaption = document.getElementById('lb-caption');
+var lbIndex = 0;
+
+function openLightbox(i){
+  lbIndex = i;
+  updateLightbox();
+  lightbox.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function updateLightbox(){
+  var item = galleryItems[lbIndex];
+  lbImg.src = item.getAttribute('data-full');
+  var key = item.getAttribute('data-caption-key');
+  var path = key.split('.');
+  var val = translations[currentLang];
+  for(var i=0;i<path.length;i++){ val = val ? val[path[i]] : undefined; }
+  lbCaption.textContent = typeof val === 'string' ? val : '';
+  lbImg.alt = lbCaption.textContent;
+}
+function closeLightbox(){
+  lightbox.classList.remove('open');
+  document.body.style.overflow = '';
+}
+galleryItems.forEach(function(item, i){
+  item.addEventListener('click', function(){ openLightbox(i); });
+});
+document.getElementById('lb-close').addEventListener('click', closeLightbox);
+document.getElementById('lb-next').addEventListener('click', function(){ openLightbox((lbIndex+1) % galleryItems.length); });
+document.getElementById('lb-prev').addEventListener('click', function(){ openLightbox((lbIndex-1+galleryItems.length) % galleryItems.length); });
+lightbox.addEventListener('click', function(e){ if(e.target === lightbox) closeLightbox(); });
+document.addEventListener('keydown', function(e){
+  if(!lightbox.classList.contains('open')) return;
+  if(e.key === 'Escape') closeLightbox();
+  if(e.key === 'ArrowRight') openLightbox((lbIndex+1) % galleryItems.length);
+  if(e.key === 'ArrowLeft') openLightbox((lbIndex-1+galleryItems.length) % galleryItems.length);
+});
+
+/* ---------- Newsletter ---------- */
+var newsletterForm = document.getElementById('newsletter-form');
+newsletterForm.addEventListener('submit', function(e){
+  e.preventDefault();
+  document.getElementById('newsletter-msg').classList.add('show');
+  newsletterForm.reset();
+});
+
+/* ---------- Cookie consent ---------- */
+var cookieBanner = document.getElementById('cookie-banner');
+if(!storage.get('one-gym-cookie-choice')){
+  setTimeout(function(){ cookieBanner.classList.add('show'); }, 1400);
+}
+document.getElementById('cookie-accept').addEventListener('click', function(){
+  storage.set('one-gym-cookie-choice','accepted');
+  cookieBanner.classList.remove('show');
+});
+document.getElementById('cookie-decline').addEventListener('click', function(){
+  storage.set('one-gym-cookie-choice','declined');
+  cookieBanner.classList.remove('show');
+});
+
+/* ---------- Footer year ---------- */
+document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+/* ---------- Init ---------- */
+applyLanguage(currentLang);
+
+})();
+</script>
+</body>
+</html>
